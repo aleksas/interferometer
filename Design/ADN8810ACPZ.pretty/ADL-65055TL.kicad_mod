@@ -1,4 +1,4 @@
-(module ADL-65055TL (layer F.Cu) (tedit 591E0F04)
+(module ADL-65055TL (layer F.Cu) (tedit 592176E1)
   (fp_text reference REF** (at 0 3.81) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
