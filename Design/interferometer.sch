@@ -794,17 +794,6 @@ F 3 "" H 3650 2850 50  0001 C CNN
 	1    3650 2850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Jumper_NC_Dual JP5
-U 1 1 591ECA9B
-P 10100 4100
-F 0 "JP5" H 9765 4325 50  0000 L CNN
-F 1 "Jumper_NC_Dual" H 9760 4250 50  0000 L CNN
-F 2 "freetronics_footprints:1X03" H 10100 4100 50  0001 C CNN
-F 3 "" H 10100 4100 50  0001 C CNN
-	1    10100 4100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 1365 2150 1365
 Wire Wire Line
@@ -1150,15 +1139,8 @@ F 3 "" H 6105 5495 60  0000 C CNN
 	1    6105 5495
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9850 4100 9750 4100
-Text Label 9750 4100 2    60   ~ 0
-scope_probe
-Wire Wire Line
-	10350 4100 10450 4100
-Text Label 10450 4100 0    60   ~ 0
+Text Label 10200 4600 0    60   ~ 0
 A0
-NoConn ~ 9850 4100
 $Comp
 L GNDA #PWR015
 U 1 1 591F4592
@@ -1278,10 +1260,7 @@ F 3 "" H 9900 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10050 4600 10100 4600
-Wire Wire Line
-	10100 4200 10100 4900
-Connection ~ 10100 4600
+	10050 4600 10200 4600
 $Comp
 L GNDA #PWR021
 U 1 1 59216D38
@@ -1327,4 +1306,7 @@ Wire Notes Line
 	3040 6540 3040 7795
 Text Notes 3035 7795 2    60   ~ 0
 Alternate tie point
+Wire Wire Line
+	10100 4900 10100 4600
+Connection ~ 10100 4600
 $EndSCHEMATC
