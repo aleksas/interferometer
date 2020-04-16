@@ -1,0 +1,8 @@
+gerbers: pcb/gerbers
+bom: pcb/1-click-bom.tsv
+summary: Self-mixing interferometer
+readme: pcb/README.md
+color: red
+eda:
+  type: kicad
+  pcb: pcb/interferometer.kicad_pcb
