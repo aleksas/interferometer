@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name interferometer-rescue)(type Legacy)(uri ${KIPRJMOD}/symbols/interferometer-rescue.lib)(options "")(descr ""))
+  (lib (name OPA320SAIDBVT)(type Legacy)(uri ${KIPRJMOD}/symbols/OPA320SAIDBVT.lib)(options "")(descr ""))
+)
