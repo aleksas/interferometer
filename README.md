@@ -14,9 +14,7 @@ Main motivation is to develope a convinient device toplay around with self mixin
     - [ ] Verify via SPICE simuation laser diode is geting correct modulated current supply
       - precision reference voltage of 1mV
     - [ ] Prepare board for convinient pcb manufacturing
-      Capacitors, resistors, leds are loosely defined. Missing voltage and maybe other parameters.
-      KiCAD project when loaded by part supplier shows ~72 components, not all are part of this pcb (see KitSpace link below). Should be [those listed in bom](./pcb/1-click-bom.tsv).  
-      - Part suppliers supported by [KitSpace](https://kitspace.org/boards/github.com/aleksas/interferometer/)
+      Capacitors, resistors, leds are loosely defined. Missing voltage and maybe other parameters. Entries like ARDUINO_SHIELD or measuring points only add to the confusion.  
       - [EasyEda](https://easyeda.com/aleksas_/self-mixing-laser-interferometer) | [LCSC](https://lcsc.com/)
     - [ ] Optional: update [KiCAD model](./pcb/)
       - so that it visualizes electronic components in 3D
