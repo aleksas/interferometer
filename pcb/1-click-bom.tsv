@@ -6,7 +6,7 @@ D1, D2,	2	LED LEDs:LED_0805
 JP1, JP2, JP3, JP4,	4	Jumper_NC_Dual freetronics_footprints:1X03																														
 LD1,	1	Laserdiode_N_TYPE ADN8810ACPZ:ADL-65055TL	LASER COMPONENTS	ADL-65055TL																											SC12525	
 Q1,	1	50V Vds, 0.22 A Id, N-channel MOSFET, SOT-23	ON Semiconductor	FDC637BNZ																							FDC637BNZCT-ND	512FDC637BNZ			2322581	
-R1,	1	680k Resistors_SMD:R_0805	Vicor	VA-C1779787																							1102-VA-C1779787-ND	492VAC1779787				
+R1,	1	680k Resistors_SMD:R_0805																														
 R2,	1	21k Resistors_SMD:R_0805																														
 R3,	1	66.5R Resistors_SMD:R_0805																														
 R4,	1	7.87k Resistors_SMD:R_0805																														

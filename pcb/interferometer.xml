@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/aleksas/labs/interferometer/pcb/interferometer.sch</source>
-    <date>2020 m. balandžio 19 d. 01:06:19</date>
+    <date>2020 m. balandžio 21 d. 10:38:42</date>
     <tool>Eeschema 5.1.5-52549c5~86~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -264,7 +264,7 @@
         <field name="Digikey">P100KDATR-ND</field>
         <field name="Farnell">	1577686</field>
         <field name="Mouser">667-ERA-6AEB104V</field>
-        <field name="manf#">ERA6AEB104V</field>
+        <field name="manf#">ERA-6AEB104V</field>
         <field name="manufacturer">Panasonic</field>
       </fields>
       <libsource lib="interferometer-rescue" part="R" description=""/>
@@ -279,7 +279,7 @@
         <field name="Digikey">P100KDATR-ND</field>
         <field name="Farnell">	1577686</field>
         <field name="Mouser">667-ERA-6AEB104V</field>
-        <field name="manf#">ERA6AEB104V</field>
+        <field name="manf#">ERA-6AEB104V</field>
         <field name="manufacturer">Panasonic</field>
       </fields>
       <libsource lib="interferometer-rescue" part="R" description=""/>
@@ -294,7 +294,7 @@
         <field name="Digikey">P100KDATR-ND</field>
         <field name="Farnell">	1577686</field>
         <field name="Mouser">667-ERA-6AEB104V</field>
-        <field name="manf#">ERA6AEB104V</field>
+        <field name="manf#">ERA-6AEB104V</field>
         <field name="manufacturer">Panasonic</field>
       </fields>
       <libsource lib="interferometer-rescue" part="R" description=""/>
@@ -309,7 +309,7 @@
         <field name="Digikey">P100KDATR-ND</field>
         <field name="Farnell">	1577686</field>
         <field name="Mouser">667-ERA-6AEB104V</field>
-        <field name="manf#">ERA6AEB104V</field>
+        <field name="manf#">ERA-6AEB104V</field>
         <field name="manufacturer">Panasonic</field>
       </fields>
       <libsource lib="interferometer-rescue" part="R" description=""/>
