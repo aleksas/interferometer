@@ -5,15 +5,15 @@ C12,	1	82pF Capacitors_SMD:C_0805_HandSoldering
 D1, D2,	2	LED LEDs:LED_0805																														
 JP1, JP2, JP3, JP4,	4	Jumper_NC_Dual freetronics_footprints:1X03																														
 LD1,	1	Laserdiode_N_TYPE ADN8810ACPZ:ADL-65055TL	LASER COMPONENTS	ADL-65055TL																											1272658	
-Q1,	1	50V Vds, 0.22 A Id, N-channel MOSFET, SOT-23	ON Semiconductor	FDC637BNZ																							FDC637BNZCT-ND	512FDC637BNZ			2322581	
+Q1,	1	50V Vds, 0.22 A Id, N-channel MOSFET, SOT-23	ON Semiconductor	FDC637BNZ																							FDC637BNZCT-ND	512FDC637BNZ		95W3155	2322581	C68302
 R1,	1	680k Resistors_SMD:R_0805																														
 R2,	1	21k Resistors_SMD:R_0805																														
 R3,	1	66.5R Resistors_SMD:R_0805																														
 R4,	1	7.87k Resistors_SMD:R_0805																														
-R5, R6, R7, R8,	4	100k Resistors_SMD:R_0805_HandSoldering	Panasonic	ERA-6AEB104V																							P100KDACT-ND	667ERA6AEB104V 		01X1346		
+R5, R6, R7, R8,	4	100k Resistors_SMD:R_0805_HandSoldering	Panasonic	ERA-6AEB104V																							P100KDACT-ND	667ERA6AEB104V 	566765	01X1346	1577686	C192074
 R9,	1	220R Resistors_SMD:R_0805_HandSoldering																														
 R10,	1	100R Resistors_SMD:R_0805_HandSoldering																														
 R11,	1	5.1k Resistors_SMD:R_0805_HandSoldering																														
-U1,	1	ADN8810ACPZ ADN8810ACPZ:ADN8810ACPZ	Analog Devices	ADN8810ACPZ																							ADN8810ACPZ-ND	584ADN8810ACPZ				
-U2,	1	Dual CMOS Operational Amplifiers, Zero-Drift Series, 1.8-V, microPower	Texas Instruments	OPA320SAIDBVT																							296-36434-1-ND	595OPA320SAIDBVT				
-U3,	1	ADR292GRUZ ADN8810ACPZ:ADR292GRUZ	Analog Devices	ADR292GRUZ																							ADR292GRUZ-ND	584ADR292GRUZ				
+U1,	1	ADN8810ACPZ ADN8810ACPZ:ADN8810ACPZ	Analog Devices	ADN8810ACPZ																							ADN8810ACPZ-ND	584ADN8810ACPZ	7089833	27X8183	2377083	
+U2,	1	Dual CMOS Operational Amplifiers, Zero-Drift Series, 1.8-V, microPower	Texas Instruments	OPA320SAIDBVT																							296-36434-1-ND	595OPA320SAIDBVT		33AH4590	3004957	
+U3,	1	ADR292GRUZ ADN8810ACPZ:ADR292GRUZ	Analog Devices	ADR292GRUZ																							ADR292GRUZ-ND	584ADR292GRUZ	7098168	14AC3018	2727741	
