@@ -29,6 +29,7 @@ Main motivation is to develope a convinient device toplay around with self mixin
   - [ ] __Physical printed and assemled board validation__
     - [ ] Assemble board and connect to Arduino or arduino form factor development board
     - [ ] Write software to control PCB laser diode modulation
+      - [Code for modulatin ADN8810 from arduino](https://github.com/analogdevicesinc/arduino/blob/486ce99954853b3e9f34e81e827f400b49ca4765/Arduino%20Uno%20R3/examples/CN0395_example/ADN8810.cpp#L117-L140)
     - [ ] Verify laser diode modulation input
     - [ ] Verify laser monitor diode signal has interference pattern
   - [ ] __Estimating values form monitor diode signal__
