@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/aleksas/labs/interferometer/pcb/interferometer.sch</source>
-    <date>2020 m. balandžio 21 d. 10:38:42</date>
-    <tool>Eeschema 5.1.5-52549c5~86~ubuntu18.04.1</tool>
+    <source>${KIPRJMOD}/interferometer.sch</source>
+    <date>Fri 19 May 2017 02:17:23 AM EAT</date>
+    <tool>Eeschema no-vcs-found-9992a07~58~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Self mixing interferometer</title>
@@ -22,362 +22,281 @@
     <comp ref="LD1">
       <value>Laserdiode_N_TYPE</value>
       <footprint>ADN8810ACPZ:ADL-65055TL</footprint>
-      <datasheet>https://www.lasercomponents.com/fileadmin/user_upload/home/Datasheets/arima/655nm/adl-65055tl.pdf</datasheet>
-      <fields>
-        <field name="Farnell">SC12525</field>
-        <field name="manf#">ADL-65055TL</field>
-        <field name="manufacturer">LASER COMPONENTS</field>
-      </fields>
-      <libsource lib="interferometer-rescue" part="Laserdiode_N_TYPE" description=""/>
+      <libsource lib="device" part="Laserdiode_N_TYPE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5919F1C9</tstamp>
     </comp>
     <comp ref="SHIELD1">
       <value>ARDUINO_SHIELD</value>
       <footprint>freetronics_footprints:ARDUINO_SHIELD</footprint>
-      <libsource lib="freetronics_schematic" part="ARDUINO_SHIELD" description=""/>
+      <libsource lib="freetronics_schematic" part="ARDUINO_SHIELD"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5919FE34</tstamp>
     </comp>
     <comp ref="U1">
       <value>ADN8810ACPZ</value>
       <footprint>ADN8810ACPZ:ADN8810ACPZ</footprint>
-      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/ADN8810.pdf</datasheet>
-      <fields>
-        <field name="Digikey">ADN8810ACPZ-ND</field>
-        <field name="Mouser">584-ADN8810ACPZ</field>
-        <field name="manf#">ADN8810ACPZ</field>
-        <field name="manufacturer">Analog Devices</field>
-      </fields>
-      <libsource lib="ADN8810ACPZ" part="ADN8810ACP" description=""/>
+      <libsource lib="ADN8810ACPZ" part="ADN8810ACP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C2ADF</tstamp>
     </comp>
     <comp ref="C1">
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="C" description=""/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C3B82</tstamp>
     </comp>
     <comp ref="C8">
       <value>22uF</value>
       <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="C" description=""/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C4360</tstamp>
     </comp>
     <comp ref="C3">
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="C" description=""/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C4BB6</tstamp>
     </comp>
     <comp ref="JP4">
       <value>Jumper_NC_Dual</value>
       <footprint>freetronics_footprints:1X03</footprint>
-      <libsource lib="interferometer-rescue" part="Jumper_NC_Dual" description=""/>
+      <libsource lib="device" part="Jumper_NC_Dual"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C6801</tstamp>
     </comp>
     <comp ref="JP2">
       <value>Jumper_NC_Dual</value>
       <footprint>freetronics_footprints:1X03</footprint>
-      <libsource lib="interferometer-rescue" part="Jumper_NC_Dual" description=""/>
+      <libsource lib="device" part="Jumper_NC_Dual"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C6851</tstamp>
     </comp>
     <comp ref="JP3">
       <value>Jumper_NC_Dual</value>
       <footprint>freetronics_footprints:1X03</footprint>
-      <libsource lib="interferometer-rescue" part="Jumper_NC_Dual" description=""/>
+      <libsource lib="device" part="Jumper_NC_Dual"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C689D</tstamp>
     </comp>
     <comp ref="C4">
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="C" description=""/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C8F57</tstamp>
     </comp>
     <comp ref="C6">
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="C" description=""/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591CA8F6</tstamp>
     </comp>
     <comp ref="C9">
       <value>22uF</value>
       <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="C" description=""/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591CDD86</tstamp>
     </comp>
     <comp ref="Q1">
       <value>FDC637BNZ</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/FDC637BNZ-D.pdf</datasheet>
-      <fields>
-        <field name="Digikey">FDC637BNZCT-ND</field>
-        <field name="Mouser">512-FDC637BNZ</field>
-        <field name="manf#">FDC637BNZ</field>
-        <field name="manufacturer">ON Semiconductor</field>
-      </fields>
-      <libsource lib="ADN8810ACPZ" part="FDC637BNZ" description="50V Vds, 0.22 A Id, N-channel MOSFET, SOT-23"/>
+      <libsource lib="ADN8810ACPZ" part="FDC637BNZ"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591CBC07</tstamp>
     </comp>
     <comp ref="R3">
       <value>66.5R</value>
       <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="interferometer-rescue" part="R" description=""/>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591CE293</tstamp>
     </comp>
     <comp ref="U3">
       <value>ADR292GRUZ</value>
       <footprint>ADN8810ACPZ:ADR292GRUZ</footprint>
-      <datasheet>https://eu.mouser.com/datasheet/2/609/ADR291_292-1503582.pdf</datasheet>
       <fields>
-        <field name="Digikey">ADR292GRUZ-ND</field>
-        <field name="Mouser">584-ADR292GRUZ</field>
         <field name="manf#">ADR292GRUZ</field>
-        <field name="manufacturer">Analog Devices</field>
       </fields>
-      <libsource lib="ADN8810ACPZ" part="ADR292GRUZ" description=""/>
+      <libsource lib="ADN8810ACPZ" part="ADR292GRUZ"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591CC52C</tstamp>
     </comp>
     <comp ref="C11">
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="C" description=""/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591CF24A</tstamp>
     </comp>
     <comp ref="TP2">
       <value>TESTPOINT</value>
-      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
-      <libsource lib="freetronics_schematic" part="TESTPOINT" description=""/>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="freetronics_schematic" part="TESTPOINT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D1312</tstamp>
     </comp>
     <comp ref="TP3">
       <value>TESTPOINT</value>
-      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
-      <libsource lib="freetronics_schematic" part="TESTPOINT" description=""/>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="freetronics_schematic" part="TESTPOINT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D135E</tstamp>
     </comp>
     <comp ref="C10">
       <value>22uF</value>
       <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="C" description=""/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D633E</tstamp>
     </comp>
     <comp ref="C2">
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="C" description=""/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D6A0E</tstamp>
     </comp>
     <comp ref="JP1">
       <value>Jumper_NC_Dual</value>
       <footprint>freetronics_footprints:1X03</footprint>
-      <libsource lib="interferometer-rescue" part="Jumper_NC_Dual" description=""/>
+      <libsource lib="device" part="Jumper_NC_Dual"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D7A74</tstamp>
     </comp>
     <comp ref="C5">
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="C" description=""/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D8E08</tstamp>
     </comp>
     <comp ref="U2">
       <value>OPA320SAIDBVT</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
-      <datasheet>https://www.ti.com/lit/ds/symlink/opa320.pdf</datasheet>
-      <fields>
-        <field name="Digikey">296-36434-1-ND</field>
-        <field name="Mouser">595-OPA320SAIDBVT</field>
-        <field name="manf#">OPA320SAIDBVT</field>
-        <field name="manufacturer">Texas Instruments</field>
-      </fields>
-      <libsource lib="ADN8810ACPZ" part="OPA320SAIDBVT" description="Dual CMOS Operational Amplifiers, Zero-Drift Series, 1.8-V, microPower"/>
+      <libsource lib="ADN8810ACPZ" part="OPA320SAIDBVT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DD2E2</tstamp>
     </comp>
     <comp ref="R1">
       <value>680k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="interferometer-rescue" part="R" description=""/>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DF768</tstamp>
     </comp>
     <comp ref="R2">
       <value>21k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="interferometer-rescue" part="R" description=""/>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DF87A</tstamp>
     </comp>
     <comp ref="C7">
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="C" description=""/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DFDB3</tstamp>
     </comp>
     <comp ref="R4">
       <value>7.87k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="interferometer-rescue" part="R" description=""/>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E038E</tstamp>
     </comp>
     <comp ref="C12">
       <value>82pF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="C" description=""/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E07E5</tstamp>
     </comp>
     <comp ref="TP4">
       <value>TESTPOINT</value>
-      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
-      <libsource lib="freetronics_schematic" part="TESTPOINT" description=""/>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="freetronics_schematic" part="TESTPOINT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DB78A</tstamp>
     </comp>
     <comp ref="R8">
       <value>100k</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
-      <fields>
-        <field name="Digikey">P100KDATR-ND</field>
-        <field name="Farnell">	1577686</field>
-        <field name="Mouser">667-ERA-6AEB104V</field>
-        <field name="manf#">ERA-6AEB104V</field>
-        <field name="manufacturer">Panasonic</field>
-      </fields>
-      <libsource lib="interferometer-rescue" part="R" description=""/>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DD952</tstamp>
     </comp>
     <comp ref="R7">
       <value>100k</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
-      <fields>
-        <field name="Digikey">P100KDATR-ND</field>
-        <field name="Farnell">	1577686</field>
-        <field name="Mouser">667-ERA-6AEB104V</field>
-        <field name="manf#">ERA-6AEB104V</field>
-        <field name="manufacturer">Panasonic</field>
-      </fields>
-      <libsource lib="interferometer-rescue" part="R" description=""/>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DE4AD</tstamp>
     </comp>
     <comp ref="R6">
       <value>100k</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
-      <fields>
-        <field name="Digikey">P100KDATR-ND</field>
-        <field name="Farnell">	1577686</field>
-        <field name="Mouser">667-ERA-6AEB104V</field>
-        <field name="manf#">ERA-6AEB104V</field>
-        <field name="manufacturer">Panasonic</field>
-      </fields>
-      <libsource lib="interferometer-rescue" part="R" description=""/>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DEC98</tstamp>
     </comp>
     <comp ref="R5">
       <value>100k</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
       <fields>
-        <field name="Digikey">P100KDATR-ND</field>
-        <field name="Farnell">	1577686</field>
-        <field name="Mouser">667-ERA-6AEB104V</field>
         <field name="manf#">ERA-6AEB104V</field>
-        <field name="manufacturer">Panasonic</field>
       </fields>
-      <libsource lib="interferometer-rescue" part="R" description=""/>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DF4B3</tstamp>
     </comp>
     <comp ref="D1">
       <value>LED</value>
       <footprint>LEDs:LED_0805</footprint>
-      <libsource lib="interferometer-rescue" part="LED" description=""/>
+      <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E6733</tstamp>
     </comp>
     <comp ref="R9">
       <value>220R</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="R" description=""/>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E706A</tstamp>
     </comp>
     <comp ref="D2">
       <value>LED</value>
       <footprint>LEDs:LED_0805</footprint>
-      <libsource lib="interferometer-rescue" part="LED" description=""/>
+      <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E8C37</tstamp>
     </comp>
     <comp ref="R10">
       <value>100R</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="R" description=""/>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E93EB</tstamp>
     </comp>
+    <comp ref="JP5">
+      <value>Jumper_NC_Dual</value>
+      <footprint>freetronics_footprints:1X03</footprint>
+      <libsource lib="device" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591ECA9B</tstamp>
+    </comp>
     <comp ref="TP1">
       <value>TESTPOINT</value>
-      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
-      <libsource lib="freetronics_schematic" part="TESTPOINT" description=""/>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="freetronics_schematic" part="TESTPOINT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D12B6</tstamp>
-    </comp>
-    <comp ref="C13">
-      <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="C" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>592057BF</tstamp>
-    </comp>
-    <comp ref="R11">
-      <value>5.1k</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>592166B5</tstamp>
-    </comp>
-    <comp ref="C14">
-      <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="interferometer-rescue" part="C" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>592167F4</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>GS2</value>
-      <footprint>Connectors:GS2</footprint>
-      <libsource lib="interferometer-rescue" part="GS2" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>59219F5F</tstamp>
     </comp>
   </components>
   <libparts>
@@ -442,50 +361,9 @@
         <pin num="8" name="NC" type="unspc"/>
       </pins>
     </libpart>
-    <libpart lib="ADN8810ACPZ" part="FDC637BNZ">
-      <description>50V Vds, 0.22 A Id, N-channel MOSFET, SOT-23</description>
-      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">FDC637BNZ</field>
-        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-6</field>
-      </fields>
-      <pins>
-        <pin num="1" name="D" type="unspc"/>
-        <pin num="2" name="D" type="unspc"/>
-        <pin num="3" name="G" type="unspc"/>
-        <pin num="4" name="S" type="unspc"/>
-        <pin num="5" name="D" type="unspc"/>
-        <pin num="6" name="D" type="unspc"/>
-      </pins>
-    </libpart>
-    <libpart lib="ADN8810ACPZ" part="OPA320SAIDBVT">
-      <description>Dual CMOS Operational Amplifiers, Zero-Drift Series, 1.8-V, microPower</description>
-      <docs>http://www.ti.com/lit/ds/symlink/opa333.pdf</docs>
-      <footprints>
-        <fp>SOIC*3.9x4.9mm*Pitch1.27mm</fp>
-        <fp>MSOP*3x3mm?Pitch0.65mm*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">OPA320SAIDBVT</field>
-        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-6</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VOUT" type="unspc"/>
-        <pin num="2" name="V-" type="unspc"/>
-        <pin num="3" name="+" type="unspc"/>
-        <pin num="4" name="-" type="unspc"/>
-        <pin num="5" name="~SHDN" type="unspc"/>
-        <pin num="6" name="V+" type="unspc"/>
-        <pin num="7" name="VOUT" type="unspc"/>
-        <pin num="??" name="~SHDN" type="unspc"/>
-      </pins>
-    </libpart>
     <libpart lib="freetronics_schematic" part="ARDUINO_SHIELD">
+      <description>Arduino shield footprint (power outputs). Original by nicholasclewis</description>
+      <docs>http://www.thingiverse.com/thing:9630</docs>
       <footprints>
         <fp>ARDUINO_SHIELD</fp>
       </footprints>
@@ -535,16 +413,8 @@
         <pin num="V_IN" name="V_IN" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="freetronics_schematic" part="TESTPOINT">
-      <fields>
-        <field name="Reference">TP</field>
-        <field name="Value">TESTPOINT</field>
-      </fields>
-      <pins>
-        <pin num="1" name="TP" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="interferometer-rescue" part="C">
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
       <footprints>
         <fp>C_*</fp>
       </footprints>
@@ -557,21 +427,28 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="interferometer-rescue" part="GS2">
+    <libpart lib="ADN8810ACPZ" part="FDC637BNZ">
+      <description>50V Vds, 0.22 A Id, N-channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
       <footprints>
-        <fp>GS*</fp>
+        <fp>SOT?23*</fp>
       </footprints>
       <fields>
-        <field name="Reference">J</field>
-        <field name="Value">GS2</field>
-        <field name="Footprint">Connectors:GS2</field>
+        <field name="Reference">Q</field>
+        <field name="Value">FDC637BNZ</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-6</field>
       </fields>
       <pins>
-        <pin num="1" name="G1" type="passive"/>
-        <pin num="2" name="G2" type="passive"/>
+        <pin num="1" name="D" type="unspc"/>
+        <pin num="2" name="D" type="unspc"/>
+        <pin num="3" name="G" type="unspc"/>
+        <pin num="4" name="S" type="unspc"/>
+        <pin num="5" name="D" type="unspc"/>
+        <pin num="6" name="D" type="unspc"/>
       </pins>
     </libpart>
-    <libpart lib="interferometer-rescue" part="Jumper_NC_Dual">
+    <libpart lib="device" part="Jumper_NC_Dual">
+      <description>Dual Jumper, normally closed</description>
       <fields>
         <field name="Reference">JP</field>
         <field name="Value">Jumper_NC_Dual</field>
@@ -582,7 +459,8 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="interferometer-rescue" part="LED">
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
       <footprints>
         <fp>LED*</fp>
       </footprints>
@@ -595,7 +473,9 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="interferometer-rescue" part="Laserdiode_N_TYPE">
+    <libpart lib="device" part="Laserdiode_N_TYPE">
+      <description>Laser Diode in a 3-pin package with photodiode (1=LD-C, 2=LD-A/PD-C, 3=PD-A)</description>
+      <docs>http://www.egismos.disonhu.com/laser/diode-package.htm</docs>
       <footprints>
         <fp>*LaserDiode*</fp>
       </footprints>
@@ -609,7 +489,31 @@
         <pin num="3" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="interferometer-rescue" part="R">
+    <libpart lib="ADN8810ACPZ" part="OPA320SAIDBVT">
+      <description>Dual CMOS Operational Amplifiers, Zero-Drift Series, 1.8-V, microPower</description>
+      <docs>http://www.ti.com/lit/ds/symlink/opa333.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*Pitch1.27mm</fp>
+        <fp>MSOP*3x3mm?Pitch0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPA320SAIDBVT</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="unspc"/>
+        <pin num="2" name="V-" type="unspc"/>
+        <pin num="3" name="+" type="unspc"/>
+        <pin num="4" name="-" type="unspc"/>
+        <pin num="5" name="~SHDN" type="unspc"/>
+        <pin num="6" name="V+" type="unspc"/>
+        <pin num="7" name="VOUT" type="unspc"/>
+        <pin num="??" name="~SHDN" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
       <footprints>
         <fp>R_*</fp>
         <fp>R_*</fp>
@@ -623,302 +527,308 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="freetronics_schematic" part="TESTPOINT">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TESTPOINT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TP" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
     <library logical="ADN8810ACPZ">
-      <uri>/home/aleksas/labs/interferometer/pcb/ADN8810ACPZ.lib</uri>
+      <uri>${KIPRJMOD}/symbols/ADN8810ACPZ.lib</uri>
     </library>
     <library logical="freetronics_schematic">
-      <uri>/home/aleksas/labs/interferometer/pcb/freetronics_schematic.lib</uri>
-    </library>
-    <library logical="interferometer-rescue">
-      <uri>/home/aleksas/labs/interferometer/pcb/interferometer-rescue.lib</uri>
+      <uri>${KIPRJMOD}/symbols/freetronics_schematic.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/ADDR2">
-      <node ref="SHIELD1" pin="2"/>
-      <node ref="JP4" pin="3"/>
-    </net>
-    <net code="2" name="/4.096_VREF">
-      <node ref="C4" pin="1"/>
-      <node ref="U1" pin="14"/>
-      <node ref="TP2" pin="1"/>
-      <node ref="U3" pin="6"/>
-    </net>
-    <net code="3" name="/ADDR1">
-      <node ref="JP3" pin="3"/>
-      <node ref="SHIELD1" pin="3"/>
-    </net>
-    <net code="4" name="/ADDR0">
-      <node ref="JP2" pin="3"/>
-      <node ref="SHIELD1" pin="4"/>
-    </net>
-    <net code="5" name="/chip_addr0">
-      <node ref="U1" pin="5"/>
-      <node ref="JP2" pin="2"/>
-    </net>
-    <net code="6" name="/chip_addr2">
-      <node ref="U1" pin="1"/>
-      <node ref="JP4" pin="2"/>
-    </net>
-    <net code="7" name="/chip_addr1">
-      <node ref="JP3" pin="2"/>
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="8" name="/~laser_standby">
-      <node ref="SHIELD1" pin="7"/>
-      <node ref="U1" pin="7"/>
-      <node ref="R7" pin="2"/>
-    </net>
-    <net code="9" name="/IOUT">
-      <node ref="Q1" pin="3"/>
-      <node ref="U1" pin="10"/>
-    </net>
-    <net code="10" name="/RSN">
-      <node ref="R3" pin="1"/>
-      <node ref="Q1" pin="4"/>
-      <node ref="U1" pin="2"/>
-    </net>
-    <net code="11" name="Earth">
-      <node ref="C13" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="JP2" pin="1"/>
-      <node ref="C10" pin="2"/>
-      <node ref="JP4" pin="1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C7" pin="1"/>
-      <node ref="SHIELD1" pin="GND1"/>
-      <node ref="SHIELD1" pin="GND2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="SHIELD1" pin="GND3"/>
-      <node ref="U1" pin="24"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="JP3" pin="1"/>
-      <node ref="R11" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="R10" pin="2"/>
-    </net>
-    <net code="12" name="/LD">
-      <node ref="LD1" pin="1"/>
-      <node ref="Q1" pin="6"/>
-    </net>
-    <net code="13" name="/PD">
-      <node ref="U2" pin="4"/>
-      <node ref="R4" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="LD1" pin="3"/>
-    </net>
-    <net code="14" name="Net-(D2-Pad1)">
-      <node ref="R10" pin="1"/>
-      <node ref="D2" pin="1"/>
-    </net>
-    <net code="15" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1"/>
-      <node ref="R9" pin="1"/>
-    </net>
-    <net code="16" name="Net-(SHIELD1-PadAD5)">
-      <node ref="SHIELD1" pin="AD5"/>
-    </net>
-    <net code="17" name="Net-(SHIELD1-PadAD4)">
-      <node ref="SHIELD1" pin="AD4"/>
-    </net>
-    <net code="18" name="Net-(SHIELD1-PadAD3)">
-      <node ref="SHIELD1" pin="AD3"/>
-    </net>
-    <net code="19" name="Net-(SHIELD1-PadAD2)">
-      <node ref="SHIELD1" pin="AD2"/>
-    </net>
-    <net code="20" name="Net-(SHIELD1-PadAD1)">
-      <node ref="SHIELD1" pin="AD1"/>
-    </net>
-    <net code="21" name="/3v3">
-      <node ref="R8" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="SHIELD1" pin="3V3"/>
-      <node ref="R6" pin="1"/>
-      <node ref="D2" pin="2"/>
-      <node ref="C9" pin="1"/>
-      <node ref="JP1" pin="3"/>
-      <node ref="U2" pin="6"/>
-      <node ref="R2" pin="1"/>
-      <node ref="TP4" pin="1"/>
-    </net>
-    <net code="22" name="/~laser_reset">
-      <node ref="SHIELD1" pin="5"/>
-      <node ref="U1" pin="22"/>
-      <node ref="R5" pin="2"/>
-    </net>
-    <net code="23" name="/MOSI">
+    <net code="1" name="/MOSI">
       <node ref="SHIELD1" pin="11"/>
       <node ref="U1" pin="19"/>
     </net>
-    <net code="24" name="/SCK">
-      <node ref="U1" pin="20"/>
+    <net code="2" name="/SCK">
       <node ref="SHIELD1" pin="13"/>
+      <node ref="U1" pin="20"/>
     </net>
-    <net code="25" name="/~CS">
-      <node ref="U1" pin="21"/>
+    <net code="3" name="/~CS">
       <node ref="SHIELD1" pin="10"/>
       <node ref="R6" pin="2"/>
+      <node ref="U1" pin="21"/>
     </net>
-    <net code="26" name="Net-(C3-Pad1)">
-      <node ref="U1" pin="8"/>
-      <node ref="C3" pin="1"/>
-      <node ref="JP1" pin="2"/>
+    <net code="4" name="/AVSS">
+      <node ref="U2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U1" pin="25"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U1" pin="18"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="5" name="Net-(C3-Pad1)">
       <node ref="U1" pin="11"/>
+      <node ref="U1" pin="8"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="C3" pin="1"/>
     </net>
-    <net code="27" name="/5v">
-      <node ref="C1" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="LD1" pin="2"/>
+    <net code="6" name="/ADDR0">
+      <node ref="SHIELD1" pin="4"/>
+      <node ref="JP2" pin="3"/>
+    </net>
+    <net code="7" name="/ADDR2">
+      <node ref="JP4" pin="3"/>
+      <node ref="SHIELD1" pin="2"/>
+    </net>
+    <net code="8" name="/ADDR1">
+      <node ref="JP3" pin="3"/>
+      <node ref="SHIELD1" pin="3"/>
+    </net>
+    <net code="9" name="/chip_addr2">
+      <node ref="U1" pin="1"/>
+      <node ref="JP4" pin="2"/>
+    </net>
+    <net code="10" name="/chip_addr1">
+      <node ref="JP3" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="11" name="/chip_addr0">
+      <node ref="U1" pin="5"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="12" name="Net-(SHIELD1-PadAD4)">
+      <node ref="SHIELD1" pin="AD4"/>
+    </net>
+    <net code="13" name="Net-(SHIELD1-PadAD3)">
+      <node ref="SHIELD1" pin="AD3"/>
+    </net>
+    <net code="14" name="Net-(SHIELD1-PadAD2)">
+      <node ref="SHIELD1" pin="AD2"/>
+    </net>
+    <net code="15" name="Net-(SHIELD1-PadAD1)">
+      <node ref="SHIELD1" pin="AD1"/>
+    </net>
+    <net code="16" name="/3v3">
+      <node ref="U2" pin="6"/>
+      <node ref="D2" pin="2"/>
+      <node ref="JP1" pin="3"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="SHIELD1" pin="3V3"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="17" name="Net-(SHIELD1-PadAD5)">
+      <node ref="SHIELD1" pin="AD5"/>
+    </net>
+    <net code="18" name="Net-(Q1-Pad5)">
+      <node ref="Q1" pin="5"/>
+    </net>
+    <net code="19" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="21" name="/5v">
       <node ref="JP1" pin="1"/>
-      <node ref="SHIELD1" pin="5V"/>
+      <node ref="U3" pin="2"/>
       <node ref="C11" pin="1"/>
       <node ref="TP3" pin="1"/>
-      <node ref="U1" pin="15"/>
-      <node ref="D1" pin="2"/>
-      <node ref="C2" pin="1"/>
+      <node ref="C5" pin="1"/>
       <node ref="U1" pin="23"/>
       <node ref="C10" pin="1"/>
-      <node ref="U3" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="LD1" pin="2"/>
+      <node ref="SHIELD1" pin="5V"/>
+      <node ref="U1" pin="15"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D1" pin="2"/>
     </net>
-    <net code="28" name="/AVSS">
-      <node ref="U3" pin="4"/>
-      <node ref="R1" pin="1"/>
-      <node ref="U2" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="J1" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="U1" pin="18"/>
-      <node ref="U1" pin="16"/>
-      <node ref="U1" pin="25"/>
-      <node ref="U1" pin="12"/>
-      <node ref="C6" pin="1"/>
-      <node ref="C13" pin="1"/>
+    <net code="22" name="/4.096_VREF">
+      <node ref="U3" pin="6"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="TP2" pin="1"/>
     </net>
-    <net code="29" name="/A0">
-      <node ref="C14" pin="1"/>
-      <node ref="R11" pin="1"/>
-      <node ref="TP1" pin="1"/>
-      <node ref="SHIELD1" pin="AD0"/>
-    </net>
-    <net code="30" name="Net-(C12-Pad1)">
-      <node ref="C14" pin="2"/>
-      <node ref="R4" pin="1"/>
-      <node ref="C12" pin="1"/>
-      <node ref="U2" pin="1"/>
-    </net>
-    <net code="31" name="Net-(C7-Pad2)">
-      <node ref="U2" pin="3"/>
-      <node ref="R1" pin="2"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C7" pin="2"/>
-    </net>
-    <net code="32" name="/~SHDN">
+    <net code="23" name="/~SHDN">
       <node ref="U2" pin="5"/>
       <node ref="SHIELD1" pin="8"/>
       <node ref="R8" pin="2"/>
     </net>
-    <net code="33" name="Net-(U1-Pad17)">
+    <net code="24" name="/LD">
+      <node ref="Q1" pin="6"/>
+      <node ref="LD1" pin="1"/>
+    </net>
+    <net code="25" name="/scope_probe">
+      <node ref="JP5" pin="1"/>
+    </net>
+    <net code="26" name="Net-(D2-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D1-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="28" name="/~laser_standby">
+      <node ref="SHIELD1" pin="7"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="29" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="30" name="/A0">
+      <node ref="SHIELD1" pin="AD0"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="JP5" pin="3"/>
+    </net>
+    <net code="31" name="/~laser_reset">
+      <node ref="U1" pin="22"/>
+      <node ref="R5" pin="2"/>
+      <node ref="SHIELD1" pin="5"/>
+    </net>
+    <net code="32" name="/IOUT">
+      <node ref="Q1" pin="3"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="33" name="/RSN">
+      <node ref="U1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Q1" pin="4"/>
+    </net>
+    <net code="34" name="Earth">
+      <node ref="SHIELD1" pin="GND2"/>
+      <node ref="SHIELD1" pin="GND1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="JP4" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="24"/>
+      <node ref="SHIELD1" pin="GND3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="35" name="Net-(C12-Pad1)">
+      <node ref="JP5" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="36" name="/PD">
+      <node ref="LD1" pin="3"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad17)">
       <node ref="U1" pin="17"/>
     </net>
-    <net code="34" name="Net-(U1-Pad13)">
+    <net code="38" name="Net-(U1-Pad13)">
       <node ref="U1" pin="13"/>
     </net>
-    <net code="35" name="Net-(U1-Pad3)">
-      <node ref="U1" pin="3"/>
-    </net>
-    <net code="36" name="Net-(SHIELD1-PadSP4)">
-      <node ref="SHIELD1" pin="SP4"/>
-    </net>
-    <net code="37" name="Net-(SHIELD1-PadSP3)">
-      <node ref="SHIELD1" pin="SP3"/>
-    </net>
-    <net code="38" name="Net-(SHIELD1-PadSP2)">
-      <node ref="SHIELD1" pin="SP2"/>
-    </net>
-    <net code="39" name="Net-(SHIELD1-PadSP1)">
-      <node ref="SHIELD1" pin="SP1"/>
-    </net>
-    <net code="40" name="Net-(SHIELD1-PadNC)">
-      <node ref="SHIELD1" pin="NC"/>
-    </net>
-    <net code="41" name="Net-(SHIELD1-Pad12)">
-      <node ref="SHIELD1" pin="12"/>
-    </net>
-    <net code="42" name="Net-(SHIELD1-PadSP5)">
-      <node ref="SHIELD1" pin="SP5"/>
-    </net>
-    <net code="43" name="Net-(SHIELD1-Pad9)">
-      <node ref="SHIELD1" pin="9"/>
-    </net>
-    <net code="44" name="Net-(SHIELD1-Pad6)">
-      <node ref="SHIELD1" pin="6"/>
-    </net>
-    <net code="45" name="Net-(SHIELD1-Pad1)">
-      <node ref="SHIELD1" pin="1"/>
-    </net>
-    <net code="46" name="Net-(SHIELD1-Pad0)">
-      <node ref="SHIELD1" pin="0"/>
-    </net>
-    <net code="47" name="Net-(U1-Pad9)">
+    <net code="39" name="Net-(U1-Pad9)">
       <node ref="U1" pin="9"/>
     </net>
-    <net code="48" name="Net-(U1-Pad6)">
+    <net code="40" name="Net-(U1-Pad6)">
       <node ref="U1" pin="6"/>
     </net>
-    <net code="49" name="Net-(SHIELD1-PadIO_R)">
+    <net code="41" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="42" name="Net-(SHIELD1-PadSP3)">
+      <node ref="SHIELD1" pin="SP3"/>
+    </net>
+    <net code="43" name="Net-(SHIELD1-PadSP2)">
+      <node ref="SHIELD1" pin="SP2"/>
+    </net>
+    <net code="44" name="Net-(SHIELD1-PadSP1)">
+      <node ref="SHIELD1" pin="SP1"/>
+    </net>
+    <net code="45" name="Net-(SHIELD1-PadNC)">
+      <node ref="SHIELD1" pin="NC"/>
+    </net>
+    <net code="46" name="Net-(SHIELD1-Pad12)">
+      <node ref="SHIELD1" pin="12"/>
+    </net>
+    <net code="47" name="Net-(SHIELD1-PadSP4)">
+      <node ref="SHIELD1" pin="SP4"/>
+    </net>
+    <net code="48" name="Net-(SHIELD1-Pad9)">
+      <node ref="SHIELD1" pin="9"/>
+    </net>
+    <net code="49" name="Net-(SHIELD1-Pad6)">
+      <node ref="SHIELD1" pin="6"/>
+    </net>
+    <net code="50" name="Net-(SHIELD1-Pad1)">
+      <node ref="SHIELD1" pin="1"/>
+    </net>
+    <net code="51" name="Net-(SHIELD1-Pad0)">
+      <node ref="SHIELD1" pin="0"/>
+    </net>
+    <net code="52" name="Net-(SHIELD1-PadIO_R)">
       <node ref="SHIELD1" pin="IO_R"/>
     </net>
-    <net code="50" name="Net-(SHIELD1-PadV_IN)">
+    <net code="53" name="Net-(SHIELD1-PadV_IN)">
       <node ref="SHIELD1" pin="V_IN"/>
     </net>
-    <net code="51" name="Net-(SHIELD1-PadAREF)">
+    <net code="54" name="Net-(SHIELD1-PadAREF)">
       <node ref="SHIELD1" pin="AREF"/>
     </net>
-    <net code="52" name="Net-(SHIELD1-PadRST)">
+    <net code="55" name="Net-(SHIELD1-PadRST)">
       <node ref="SHIELD1" pin="RST"/>
     </net>
-    <net code="53" name="Net-(SHIELD1-PadSCL)">
+    <net code="56" name="Net-(SHIELD1-PadSCL)">
       <node ref="SHIELD1" pin="SCL"/>
     </net>
-    <net code="54" name="Net-(SHIELD1-PadSDA)">
+    <net code="57" name="Net-(SHIELD1-PadSDA)">
       <node ref="SHIELD1" pin="SDA"/>
     </net>
-    <net code="55" name="Net-(SHIELD1-PadSP6)">
+    <net code="58" name="Net-(SHIELD1-PadSP6)">
       <node ref="SHIELD1" pin="SP6"/>
     </net>
-    <net code="56" name="Net-(Q1-Pad5)">
-      <node ref="Q1" pin="5"/>
+    <net code="59" name="Net-(SHIELD1-PadSP5)">
+      <node ref="SHIELD1" pin="SP5"/>
     </net>
-    <net code="57" name="Net-(Q1-Pad2)">
-      <node ref="Q1" pin="2"/>
+    <net code="60" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
     </net>
-    <net code="58" name="Net-(Q1-Pad1)">
-      <node ref="Q1" pin="1"/>
-    </net>
-    <net code="59" name="Net-(U3-Pad3)">
-      <node ref="U3" pin="3"/>
-    </net>
-    <net code="60" name="Net-(U3-Pad1)">
-      <node ref="U3" pin="1"/>
-    </net>
-    <net code="61" name="Net-(U3-Pad5)">
-      <node ref="U3" pin="5"/>
-    </net>
-    <net code="62" name="Net-(U3-Pad8)">
+    <net code="61" name="Net-(U3-Pad8)">
       <node ref="U3" pin="8"/>
     </net>
-    <net code="63" name="Net-(U3-Pad7)">
-      <node ref="U3" pin="7"/>
+    <net code="62" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="63" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="64" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
     </net>
   </nets>
 </export>

@@ -1,4 +1,6 @@
 (fp_lib_table
-  (lib (name freetronics_footprints)(type KiCad)(uri "$(KIPRJMOD)/freetronics_kicad_library-master/freetronics_footprints.pretty")(options "")(descr ""))
-  (lib (name ADN8810ACPZ)(type KiCad)(uri "$(KIPRJMOD)/ADN8810ACPZ.pretty")(options "")(descr ""))
+  (lib (name freetronics_footprints)(type KiCad)(uri "$(KIPRJMOD)/footprints/freetronics.pretty")(options "")(descr ""))
+  (lib (name ADN8810ACPZ)(type KiCad)(uri "$(KIPRJMOD)/footprints/ADN8810ACPZ.pretty")(options "")(descr ""))
+  (lib (name OPA320SAIDBVT)(type KiCad)(uri ${KIPRJMOD}/footprints/OPA320SAIDBVT.pretty)(options "")(descr ""))
+  (lib (name "1x02 GS2")(type KiCad)(uri "${KIPRJMOD}/footprints/1x02 GS2.pretty")(options "")(descr ""))
 )

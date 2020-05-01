@@ -18,12 +18,12 @@ L interferometer-rescue:Laserdiode_N_TYPE LD1
 U 1 1 5919F1C9
 P 1900 1715
 F 0 "LD1" V 2485 1665 50  0000 L CNN
-F 1 "Laserdiode_N_TYPE" V 2585 1365 50  0000 L CNN
+F 1 "Laserdiode_N_TYPE (2.2-2.5v)" V 2585 1365 50  0000 L CNN
 F 2 "ADN8810ACPZ:ADL-65055TL" H 1900 1790 50  0001 C CNN
 F 3 "https://www.lasercomponents.com/fileadmin/user_upload/home/Datasheets/arima/655nm/adl-65055tl.pdf" H 1950 1615 50  0001 C CNN
-F 4 "ADL-65055TL" H 1900 1715 50  0001 C CNN "manf#"
-F 5 "LASER COMPONENTS" H 1900 1715 50  0001 C CNN "manufacturer"
-F 6 "SC12525" H 1900 1715 50  0001 C CNN "Farnell"
+F 4 "LASER COMPONENTS" H 1900 1715 50  0001 C CNN "Manufacturer_Name"
+F 5 "ADL-65055TL" H 1900 1715 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "ADL-65055TL" H 1900 1715 50  0001 C CNN "manf#"
 	1    1900 1715
 	0    1    1    0   
 $EndComp
@@ -32,11 +32,11 @@ PD
 Text Label 2250 2165 2    60   ~ 0
 LD
 $Comp
-L freetronics_schematic:ARDUINO_SHIELD SHIELD1
+L interferometer-rescue:ARDUINO_SHIELD SHIELD1
 U 1 1 5919FE34
 P 5250 2300
-F 0 "SHIELD1" H 5250 4047 60  0000 C CNN
-F 1 "ARDUINO_SHIELD" H 5250 3941 60  0000 C CNN
+F 0 "SHIELD1" H 5250 2500 60  0000 C CNN
+F 1 "ARDUINO_SHIELD" H 5300 2300 60  0000 C CNN
 F 2 "freetronics_footprints:ARDUINO_SHIELD" H 5250 2100 50  0001 C CNN
 F 3 "" H 5250 2300 60  0000 C CNN
 	1    5250 2300
@@ -72,21 +72,6 @@ Text Notes 11220 3340 2    60   ~ 0
 Laser driver
 Text Label 2150 1365 0    60   ~ 0
 5v
-$Comp
-L ADN8810ACPZ:ADN8810ACP U1
-U 1 1 591C2ADF
-P 9000 1750
-F 0 "U1" H 8935 1710 60  0000 C CNN
-F 1 "ADN8810ACPZ" H 8960 1605 60  0000 C CNN
-F 2 "ADN8810ACPZ:ADN8810ACPZ" H 9000 1500 60  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADN8810.pdf" H 8750 1700 60  0000 C CNN
-F 4 "ADN8810ACPZ-ND" H 9000 1750 50  0001 C CNN "Digikey"
-F 5 "584-ADN8810ACPZ" H 9000 1750 50  0001 C CNN "Mouser"
-F 6 "ADN8810ACPZ" H 9000 1750 50  0001 C CNN "manf#"
-F 7 "Analog Devices" H 9000 1750 50  0001 C CNN "manufacturer"
-	1    9000 1750
-	1    0    0    -1  
-$EndComp
 NoConn ~ 10000 1800
 NoConn ~ 10000 1900
 Text Label 3850 2300 1    60   ~ 0
@@ -96,7 +81,7 @@ GND
 Text Label 2450 3900 1    60   ~ 0
 GND
 $Comp
-L power:GNDA #PWR01
+L interferometer-rescue:GNDA #PWR01
 U 1 1 591C35DD
 P 2250 4350
 F 0 "#PWR01" H 2250 4100 50  0001 C CNN
@@ -113,16 +98,19 @@ L interferometer-rescue:C C1
 U 1 1 591C3B82
 P 8750 850
 F 0 "C1" H 8450 900 50  0000 L CNN
-F 1 "0.1uF" H 8450 800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8788 700 50  0001 C CNN
+F 1 "100nF" H 8450 800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8788 700 50  0001 C CNN
 F 3 "" H 8750 850 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8750 850 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21B104JBCNNNC" H 8750 850 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "CL21B104JBCNNNC" H 8750 850 50  0001 C CNN "manf#"
 	1    8750 850 
 	1    0    0    -1  
 $EndComp
 Text Notes 5900 6535 2    60   ~ 0
 4.096v voltage reference
 $Comp
-L power:Earth #PWR02
+L interferometer-rescue:Earth #PWR02
 U 1 1 591C415F
 P 2650 4350
 F 0 "#PWR02" H 2650 4100 50  0001 C CNN
@@ -140,13 +128,13 @@ U 1 1 591C4360
 P 1150 4200
 F 0 "C8" H 1265 4246 50  0000 L CNN
 F 1 "22uF" H 1265 4155 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210_HandSoldering" H 1188 4050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 1188 4050 50  0001 C CNN
 F 3 "" H 1150 4200 50  0001 C CNN
 	1    1150 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR03
+L interferometer-rescue:GNDA #PWR03
 U 1 1 591C43D1
 P 1150 4350
 F 0 "#PWR03" H 1150 4100 50  0001 C CNN
@@ -161,16 +149,19 @@ L interferometer-rescue:C C3
 U 1 1 591C4BB6
 P 10200 1100
 F 0 "C3" H 10315 1146 50  0000 L CNN
-F 1 "0.1uF" H 10315 1055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10238 950 50  0001 C CNN
+F 1 "100nF" H 10315 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10238 950 50  0001 C CNN
 F 3 "" H 10200 1100 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 10200 1100 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21B104JBCNNNC" H 10200 1100 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "CL21B104JBCNNNC" H 10200 1100 50  0001 C CNN "manf#"
 	1    10200 1100
 	1    0    0    -1  
 $EndComp
 Text Label 8600 650  2    60   ~ 0
 5v
 $Comp
-L power:Earth #PWR04
+L interferometer-rescue:Earth #PWR04
 U 1 1 591C5737
 P 9650 2800
 F 0 "#PWR04" H 9650 2550 50  0001 C CNN
@@ -251,9 +242,12 @@ L interferometer-rescue:C C4
 U 1 1 591C8F57
 P 7350 1600
 F 0 "C4" H 7450 1550 50  0000 L CNN
-F 1 "0.1uF" H 7400 1450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7388 1450 50  0001 C CNN
+F 1 "100nF" H 7400 1450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7388 1450 50  0001 C CNN
 F 3 "" H 7350 1600 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7350 1600 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21B104JBCNNNC" H 7350 1600 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "CL21B104JBCNNNC" H 7350 1600 50  0001 C CNN "manf#"
 	1    7350 1600
 	1    0    0    -1  
 $EndComp
@@ -264,14 +258,17 @@ L interferometer-rescue:C C6
 U 1 1 591CA8F6
 P 9150 2950
 F 0 "C6" H 8950 2950 50  0000 L CNN
-F 1 "0.1uF" H 8900 2850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9188 2800 50  0001 C CNN
+F 1 "100nF" H 8900 2850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9188 2800 50  0001 C CNN
 F 3 "" H 9150 2950 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 9150 2950 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21B104JBCNNNC" H 9150 2950 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "CL21B104JBCNNNC" H 9150 2950 50  0001 C CNN "manf#"
 	1    9150 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR05
+L interferometer-rescue:GNDA #PWR05
 U 1 1 591CAC9F
 P 9150 3150
 F 0 "#PWR05" H 9150 2900 50  0001 C CNN
@@ -284,7 +281,7 @@ $EndComp
 Text Label 8900 2750 0    60   ~ 0
 AVSS
 $Comp
-L power:Earth #PWR06
+L interferometer-rescue:Earth #PWR06
 U 1 1 591CC522
 P 3750 4250
 F 0 "#PWR06" H 3750 4000 50  0001 C CNN
@@ -295,7 +292,7 @@ F 3 "" H 3750 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR07
+L interferometer-rescue:Earth #PWR07
 U 1 1 591CC620
 P 4550 4250
 F 0 "#PWR07" H 4550 4000 50  0001 C CNN
@@ -306,7 +303,7 @@ F 3 "" H 4550 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR08
+L interferometer-rescue:Earth #PWR08
 U 1 1 591CC6E3
 P 5350 4250
 F 0 "#PWR08" H 5350 4000 50  0001 C CNN
@@ -317,7 +314,7 @@ F 3 "" H 5350 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR09
+L interferometer-rescue:GNDA #PWR09
 U 1 1 591CD640
 P 7350 1850
 F 0 "#PWR09" H 7350 1600 50  0001 C CNN
@@ -333,13 +330,13 @@ U 1 1 591CDD86
 P 1050 5550
 F 0 "C9" H 1150 5550 50  0000 L CNN
 F 1 "22uF" H 1100 5450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210_HandSoldering" H 1088 5400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 1088 5400 50  0001 C CNN
 F 3 "" H 1050 5550 50  0001 C CNN
 	1    1050 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR010
+L interferometer-rescue:GNDA #PWR010
 U 1 1 591CE000
 P 1050 5800
 F 0 "#PWR010" H 1050 5550 50  0001 C CNN
@@ -350,17 +347,17 @@ F 3 "" H 1050 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADN8810ACPZ:FDC637BNZ Q1
+L interferometer-rescue:FDC637BNZ Q1
 U 1 1 591CBC07
 P 6515 3835
 F 0 "Q1" H 6600 4265 50  0000 C CNN
 F 1 "FDC637BNZ" H 6600 4174 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 6060 3455 50  0001 L CIN
+F 2 "OPA320SAIDBVT:SOT95P280X145-6N" H 6060 3455 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/FDC637BNZ-D.pdf" H 6515 3835 50  0001 L CNN
-F 4 "FDC637BNZCT-ND" H 6515 3835 50  0001 C CNN "Digikey"
-F 5 "512-FDC637BNZ" H 6515 3835 50  0001 C CNN "Mouser"
-F 6 "FDC637BNZ" H 6515 3835 50  0001 C CNN "manf#"
-F 7 "ON Semiconductor" H 6515 3835 50  0001 C CNN "manufacturer"
+F 4 "ON Semiconductor" H 6515 3835 50  0001 C CNN "Manufacturer_Name"
+F 5 "FDC637BNZ" H 6515 3835 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "512-FDC637BNZ" H 6515 3835 50  0001 C CNN "Mouser Part Number"
+F 7 "FDC637BNZ" H 6515 3835 50  0001 C CNN "manf#"
 	1    6515 3835
 	1    0    0    -1  
 $EndComp
@@ -371,9 +368,12 @@ L interferometer-rescue:R R3
 U 1 1 591CE293
 P 7230 4820
 F 0 "R3" H 7000 4890 50  0000 L CNN
-F 1 "66.5R" H 6950 4790 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" V 7160 4820 50  0001 C CNN
+F 1 "66.5ohms" H 6950 4790 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7160 4820 50  0001 C CNN
 F 3 "" H 7230 4820 50  0001 C CNN
+F 4 "Panasonic" H 7230 4820 50  0001 C CNN "Manufacturer_Name"
+F 5 "ERJ-6ENF66R5V" H 7230 4820 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "ERJ-6ENF66R5V" H 7230 4820 50  0001 C CNN "manf#"
 	1    7230 4820
 	1    0    0    -1  
 $EndComp
@@ -397,7 +397,7 @@ Text Label 5050 5050 0    60   ~ 0
 Text Notes 7455 5250 2    60   ~ 0
 Laser-driver output
 $Comp
-L ADN8810ACPZ:ADR292GRUZ U3
+L interferometer-rescue:ADR292GRUZ U3
 U 1 1 591CC52C
 P 3500 5350
 F 0 "U3" H 4600 5737 60  0000 C CNN
@@ -405,9 +405,9 @@ F 1 "ADR292GRUZ" H 4600 5631 60  0000 C CNN
 F 2 "ADN8810ACPZ:ADR292GRUZ" H 3900 4100 60  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/609/ADR291_292-1503582.pdf" H 3500 5350 60  0000 C CNN
 F 4 "ADR292GRUZ" H 3500 5350 60  0001 C CNN "manf#"
-F 5 "ADR292GRUZ-ND" H 3500 5350 50  0001 C CNN "Digikey"
-F 6 "584-ADR292GRUZ" H 3500 5350 50  0001 C CNN "Mouser"
-F 7 "Analog Devices" H 3500 5350 50  0001 C CNN "manufacturer"
+F 5 "Analog Devices" H 3500 5350 50  0001 C CNN "Manufacturer_Name"
+F 6 "ADR292GRUZ" H 3500 5350 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "584-ADR292GRUZ" H 3500 5350 50  0001 C CNN "Mouser Part Number"
 	1    3500 5350
 	1    0    0    -1  
 $EndComp
@@ -416,30 +416,33 @@ L interferometer-rescue:C C11
 U 1 1 591CF24A
 P 3405 5530
 F 0 "C11" H 3520 5576 50  0000 L CNN
-F 1 "0.1uF" H 3520 5485 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3443 5380 50  0001 C CNN
+F 1 "100nF" H 3520 5485 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3443 5380 50  0001 C CNN
 F 3 "" H 3405 5530 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 3405 5530 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21B104JBCNNNC" H 3405 5530 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "CL21B104JBCNNNC" H 3405 5530 50  0001 C CNN "manf#"
 	1    3405 5530
 	1    0    0    -1  
 $EndComp
 $Comp
-L freetronics_schematic:TESTPOINT TP2
+L interferometer-rescue:TESTPOINT TP2
 U 1 1 591D1312
 P 7130 5730
 F 0 "TP2" H 7208 5854 40  0000 L CNN
 F 1 "TESTPOINT" H 7208 5786 30  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7130 5730 60  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7130 5730 60  0001 C CNN
 F 3 "" H 7130 5730 60  0000 C CNN
 	1    7130 5730
 	1    0    0    -1  
 $EndComp
 $Comp
-L freetronics_schematic:TESTPOINT TP3
+L interferometer-rescue:TESTPOINT TP3
 U 1 1 591D135E
 P 6110 6205
 F 0 "TP3" H 5955 6275 40  0000 L CNN
 F 1 "TESTPOINT" H 5830 6210 30  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6110 6205 60  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6110 6205 60  0001 C CNN
 F 3 "" H 6110 6205 60  0000 C CNN
 	1    6110 6205
 	-1   0    0    1   
@@ -477,13 +480,13 @@ U 1 1 591D633E
 P 2450 5550
 F 0 "C10" H 2550 5550 50  0000 L CNN
 F 1 "22uF" H 2500 5450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210_HandSoldering" H 2488 5400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 2488 5400 50  0001 C CNN
 F 3 "" H 2450 5550 50  0001 C CNN
 	1    2450 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR011
+L interferometer-rescue:GNDA #PWR011
 U 1 1 591D6345
 P 2450 5800
 F 0 "#PWR011" H 2450 5550 50  0001 C CNN
@@ -502,9 +505,12 @@ L interferometer-rescue:C C2
 U 1 1 591D6A0E
 P 8300 900
 F 0 "C2" H 7950 950 50  0000 L CNN
-F 1 "0.1uF" H 7950 850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8338 750 50  0001 C CNN
+F 1 "100nF" H 7950 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8338 750 50  0001 C CNN
 F 3 "" H 8300 900 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8300 900 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21B104JBCNNNC" H 8300 900 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "CL21B104JBCNNNC" H 8300 900 50  0001 C CNN "manf#"
 	1    8300 900 
 	1    0    0    -1  
 $EndComp
@@ -530,16 +536,19 @@ L interferometer-rescue:C C5
 U 1 1 591D8E08
 P 1450 1700
 F 0 "C5" H 1100 1750 50  0000 L CNN
-F 1 "0.1uF" H 1100 1650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1488 1550 50  0001 C CNN
+F 1 "100nF" H 1100 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1488 1550 50  0001 C CNN
 F 3 "" H 1450 1700 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 1450 1700 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21B104JBCNNNC" H 1450 1700 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "CL21B104JBCNNNC" H 1450 1700 50  0001 C CNN "manf#"
 	1    1450 1700
 	1    0    0    -1  
 $EndComp
 Text Label 6905 5080 0    60   ~ 0
 AVSS
 $Comp
-L power:Earth #PWR012
+L interferometer-rescue:Earth #PWR012
 U 1 1 591D7D5F
 P 8300 1100
 F 0 "#PWR012" H 8300 850 50  0001 C CNN
@@ -556,30 +565,15 @@ DVSS
 Text Label 8150 750  0    60   ~ 0
 5v
 NoConn ~ 8550 2700
-$Comp
-L ADN8810ACPZ:OPA320SAIDBVT U2
-U 1 1 591DD2E2
-P 9200 4600
-F 0 "U2" H 9100 4800 50  0000 L CNN
-F 1 "OPA320SAIDBVT" H 9100 4900 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 9400 4050 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/opa320.pdf" H 9200 4600 50  0001 C CNN
-F 4 "296-36434-1-ND" H 9200 4600 50  0001 C CNN "Digikey"
-F 5 "595-OPA320SAIDBVT" H 9200 4600 50  0001 C CNN "Mouser"
-F 6 "OPA320SAIDBVT" H 9200 4600 50  0001 C CNN "manf#"
-F 7 "Texas Instruments" H 9200 4600 50  0001 C CNN "manufacturer"
-	1    9200 4600
-	1    0    0    -1  
-$EndComp
-Text Label 9200 5000 0    60   ~ 0
+Text Label 8100 5000 0    60   ~ 0
 AVSS
 $Comp
 L interferometer-rescue:R R1
 U 1 1 591DF768
 P 8650 3750
 F 0 "R1" H 8700 3900 50  0000 L CNN
-F 1 "680k" H 8700 3800 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" V 8580 3750 50  0001 C CNN
+F 1 "680kohms" H 8700 3800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8580 3750 50  0001 C CNN
 F 3 "" H 8650 3750 50  0001 C CNN
 	1    8650 3750
 	1    0    0    -1  
@@ -589,8 +583,8 @@ L interferometer-rescue:R R2
 U 1 1 591DF87A
 P 8950 4000
 F 0 "R2" V 8950 4000 50  0000 C CNN
-F 1 "21k" V 8834 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 8880 4000 50  0001 C CNN
+F 1 "21Kohms" V 8834 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8880 4000 50  0001 C CNN
 F 3 "" H 8950 4000 50  0001 C CNN
 	1    8950 4000
 	0    1    1    0   
@@ -602,21 +596,24 @@ L interferometer-rescue:C C7
 U 1 1 591DFDB3
 P 8350 3750
 F 0 "C7" H 8050 3800 50  0000 L CNN
-F 1 "0.1uF" H 8050 3700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8388 3600 50  0001 C CNN
+F 1 "100nF" H 8050 3700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8388 3600 50  0001 C CNN
 F 3 "" H 8350 3750 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8350 3750 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21B104JBCNNNC" H 8350 3750 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "CL21B104JBCNNNC" H 8350 3750 50  0001 C CNN "manf#"
 	1    8350 3750
 	1    0    0    -1  
 $EndComp
-Text Label 8500 4700 2    60   ~ 0
+Text Label 9400 4800 2    60   ~ 0
 PD
 $Comp
 L interferometer-rescue:R R4
 U 1 1 591E038E
 P 9250 5200
 F 0 "R4" V 9250 5200 50  0000 C CNN
-F 1 "7.87k" V 9350 5200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9180 5200 50  0001 C CNN
+F 1 "7.87kohms" V 9350 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9180 5200 50  0001 C CNN
 F 3 "" H 9250 5200 50  0001 C CNN
 	1    9250 5200
 	0    1    1    0   
@@ -627,8 +624,11 @@ U 1 1 591E07E5
 P 9250 5600
 F 0 "C12" V 9500 5600 50  0000 C CNN
 F 1 "82pF" V 9400 5600 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9288 5450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9288 5450 50  0001 C CNN
 F 3 "" H 9250 5600 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 9250 5600 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21C820JBANNNC" H 9250 5600 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "CL21C820JBANNNC" H 9250 5600 50  0001 C CNN "manf#"
 	1    9250 5600
 	0    1    1    0   
 $EndComp
@@ -641,12 +641,12 @@ Text Label 7130 6200 1    60   ~ 0
 Text Label 6000 6125 0    60   ~ 0
 5v
 $Comp
-L freetronics_schematic:TESTPOINT TP4
+L interferometer-rescue:TESTPOINT TP4
 U 1 1 591DB78A
 P 6320 5860
 F 0 "TP4" H 6398 5984 40  0000 L CNN
 F 1 "TESTPOINT" H 6398 5916 30  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6320 5860 60  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6320 5860 60  0001 C CNN
 F 3 "" H 6320 5860 60  0000 C CNN
 	1    6320 5860
 	1    0    0    -1  
@@ -661,14 +661,12 @@ L interferometer-rescue:R R8
 U 1 1 591DD952
 P 10550 4550
 F 0 "R8" H 10620 4596 50  0000 L CNN
-F 1 "100k" H 10620 4505 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 10480 4550 50  0001 C CNN
+F 1 "100kohms" H 10620 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10480 4550 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 10550 4550 50  0001 C CNN
-F 4 "P100KDATR-ND" H 10550 4550 50  0001 C CNN "Digikey"
-F 5 "667-ERA-6AEB104V" H 10550 4550 50  0001 C CNN "Mouser"
+F 4 "Panasonic" H 10550 4550 50  0001 C CNN "Manufacturer_Name"
+F 5 "ERA-6AEB104V" H 10550 4550 50  0001 C CNN "Manufacturer_Part_Number"
 F 6 "ERA-6AEB104V" H 10550 4550 50  0001 C CNN "manf#"
-F 7 "Panasonic" H 10550 4550 50  0001 C CNN "manufacturer"
-F 8 "	1577686" H 10550 4550 50  0001 C CNN "Farnell"
 	1    10550 4550
 	1    0    0    -1  
 $EndComp
@@ -679,14 +677,12 @@ L interferometer-rescue:R R7
 U 1 1 591DE4AD
 P 8200 2750
 F 0 "R7" H 8270 2796 50  0000 L CNN
-F 1 "100k" H 8270 2705 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8130 2750 50  0001 C CNN
+F 1 "100kohms" H 8270 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8130 2750 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 8200 2750 50  0001 C CNN
-F 4 "P100KDATR-ND" H 8200 2750 50  0001 C CNN "Digikey"
-F 5 "667-ERA-6AEB104V" H 8200 2750 50  0001 C CNN "Mouser"
+F 4 "Panasonic" H 8200 2750 50  0001 C CNN "Manufacturer_Name"
+F 5 "ERA-6AEB104V" H 8200 2750 50  0001 C CNN "Manufacturer_Part_Number"
 F 6 "ERA-6AEB104V" H 8200 2750 50  0001 C CNN "manf#"
-F 7 "Panasonic" H 8200 2750 50  0001 C CNN "manufacturer"
-F 8 "	1577686" H 8200 2750 50  0001 C CNN "Farnell"
 	1    8200 2750
 	1    0    0    -1  
 $EndComp
@@ -697,14 +693,12 @@ L interferometer-rescue:R R6
 U 1 1 591DEC98
 P 6900 1800
 F 0 "R6" H 6970 1846 50  0000 L CNN
-F 1 "100k" H 6970 1755 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6830 1800 50  0001 C CNN
+F 1 "100kohms" H 6970 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6830 1800 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6900 1800 50  0001 C CNN
-F 4 "P100KDATR-ND" H 6900 1800 50  0001 C CNN "Digikey"
-F 5 "667-ERA-6AEB104V" H 6900 1800 50  0001 C CNN "Mouser"
+F 4 "Panasonic" H 6900 1800 50  0001 C CNN "Manufacturer_Name"
+F 5 "ERA-6AEB104V" H 6900 1800 50  0001 C CNN "Manufacturer_Part_Number"
 F 6 "ERA-6AEB104V" H 6900 1800 50  0001 C CNN "manf#"
-F 7 "Panasonic" H 6900 1800 50  0001 C CNN "manufacturer"
-F 8 "	1577686" H 6900 1800 50  0001 C CNN "Farnell"
 	1    6900 1800
 	1    0    0    -1  
 $EndComp
@@ -715,14 +709,12 @@ L interferometer-rescue:R R5
 U 1 1 591DF4B3
 P 7450 1200
 F 0 "R5" H 7520 1246 50  0000 L CNN
-F 1 "100k" H 7520 1155 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7380 1200 50  0001 C CNN
+F 1 "100kohms" H 7520 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7380 1200 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7450 1200 50  0001 C CNN
 F 4 "ERA-6AEB104V" H 7450 1200 60  0001 C CNN "manf#"
-F 5 "P100KDATR-ND" H 7450 1200 50  0001 C CNN "Digikey"
-F 6 "667-ERA-6AEB104V" H 7450 1200 50  0001 C CNN "Mouser"
-F 7 "Panasonic" H 7450 1200 50  0001 C CNN "manufacturer"
-F 8 "	1577686" H 7450 1200 50  0001 C CNN "Farnell"
+F 5 "Panasonic" H 7450 1200 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERA-6AEB104V" H 7450 1200 50  0001 C CNN "Manufacturer_Part_Number"
 	1    7450 1200
 	1    0    0    -1  
 $EndComp
@@ -738,9 +730,12 @@ L interferometer-rescue:LED D1
 U 1 1 591E6733
 P 3300 2250
 F 0 "D1" V 3350 2450 50  0000 R CNN
-F 1 "LED" V 3250 2450 50  0000 R CNN
-F 2 "LEDs:LED_0805" H 3300 2250 50  0001 C CNN
-F 3 "" H 3300 2250 50  0001 C CNN
+F 1 "LED GREEN" V 3250 2450 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 3300 2250 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-118/LTST-C171KGKT.pdf" H 3300 2250 50  0001 C CNN
+F 4 "Lite-On" H 3300 2250 50  0001 C CNN "Manufacturer_Name"
+F 5 "LTST-C171KGKT" H 3300 2250 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "LTST-C171KGKT" H 3300 2250 50  0001 C CNN "manf#"
 	1    3300 2250
 	0    -1   -1   0   
 $EndComp
@@ -749,14 +744,14 @@ L interferometer-rescue:R R9
 U 1 1 591E706A
 P 3300 2650
 F 0 "R9" H 3150 2700 50  0000 L CNN
-F 1 "220R" H 3050 2600 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3230 2650 50  0001 C CNN
+F 1 "220ohms" H 3050 2600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3230 2650 50  0001 C CNN
 F 3 "" H 3300 2650 50  0001 C CNN
 	1    3300 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR013
+L interferometer-rescue:GNDA #PWR013
 U 1 1 591E7828
 P 3300 2850
 F 0 "#PWR013" H 3300 2600 50  0001 C CNN
@@ -771,9 +766,12 @@ L interferometer-rescue:LED D2
 U 1 1 591E8C37
 P 3650 2350
 F 0 "D2" V 3800 2550 50  0000 R CNN
-F 1 "LED" V 3700 2550 50  0000 R CNN
-F 2 "LEDs:LED_0805" H 3650 2350 50  0001 C CNN
-F 3 "" H 3650 2350 50  0001 C CNN
+F 1 "LED GREEN" V 3700 2550 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 3650 2350 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-118/LTST-C171KGKT.pdf" H 3650 2350 50  0001 C CNN
+F 4 "Lite-On" H 3650 2350 50  0001 C CNN "Manufacturer_Name"
+F 5 "LTST-C171KGKT" H 3650 2350 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "LTST-C171KGKT" H 3650 2350 50  0001 C CNN "manf#"
 	1    3650 2350
 	0    -1   -1   0   
 $EndComp
@@ -782,14 +780,14 @@ L interferometer-rescue:R R10
 U 1 1 591E93EB
 P 3650 2650
 F 0 "R10" H 3450 2700 50  0000 L CNN
-F 1 "100R" H 3400 2600 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3580 2650 50  0001 C CNN
+F 1 "100ohms" H 3400 2600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3580 2650 50  0001 C CNN
 F 3 "" H 3650 2650 50  0001 C CNN
 	1    3650 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR014
+L interferometer-rescue:GNDA #PWR014
 U 1 1 591E9451
 P 3650 2850
 F 0 "#PWR014" H 3650 2600 50  0001 C CNN
@@ -1032,28 +1030,13 @@ Wire Wire Line
 Wire Wire Line
 	9250 2850 9500 2850
 Wire Wire Line
-	9200 4800 10550 4800
-Wire Wire Line
-	9100 4900 9100 5000
-Wire Wire Line
-	8500 5000 9100 5000
-Wire Wire Line
-	9100 4000 9100 4300
-Wire Wire Line
 	9100 4000 9450 4000
 Wire Wire Line
-	8500 4700 8800 4700
-Wire Wire Line
-	9100 5200 8800 5200
-Wire Wire Line
-	8800 4700 8800 5200
-Connection ~ 8800 4700
+	9100 5200 9050 5200
 Wire Wire Line
 	9700 4600 9700 5200
-Connection ~ 9700 4600
 Wire Wire Line
 	8800 5600 9100 5600
-Connection ~ 8800 5200
 Connection ~ 9700 5200
 Wire Wire Line
 	9700 5600 9400 5600
@@ -1070,8 +1053,6 @@ Wire Wire Line
 	8650 3500 8650 3600
 Wire Wire Line
 	8650 3900 8650 4000
-Wire Wire Line
-	8650 4500 8900 4500
 Wire Wire Line
 	8350 3900 8350 4000
 Wire Wire Line
@@ -1120,27 +1101,12 @@ Wire Wire Line
 Connection ~ 3650 2000
 Wire Wire Line
 	3650 2850 3650 2800
-Text Label 5975 5575 0    60   ~ 0
-A0
-Wire Wire Line
-	6105 5575 5975 5575
 Wire Wire Line
 	6105 5495 6105 5575
-$Comp
-L freetronics_schematic:TESTPOINT TP1
-U 1 1 591D12B6
-P 6105 5495
-F 0 "TP1" H 6183 5619 40  0000 L CNN
-F 1 "TESTPOINT" H 6183 5551 30  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6105 5495 60  0001 C CNN
-F 3 "" H 6105 5495 60  0000 C CNN
-	1    6105 5495
-	1    0    0    -1  
-$EndComp
 Text Label 10200 4600 0    60   ~ 0
 A0
 $Comp
-L power:GNDA #PWR015
+L interferometer-rescue:GNDA #PWR015
 U 1 1 591F4592
 P 10200 1350
 F 0 "#PWR015" H 10200 1100 50  0001 C CNN
@@ -1153,7 +1119,7 @@ $EndComp
 Wire Wire Line
 	8750 1100 8750 1000
 $Comp
-L power:GNDA #PWR016
+L interferometer-rescue:GNDA #PWR016
 U 1 1 591F4F47
 P 8750 1100
 F 0 "#PWR016" H 8750 850 50  0001 C CNN
@@ -1164,7 +1130,7 @@ F 3 "" H 8750 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR017
+L interferometer-rescue:GNDA #PWR017
 U 1 1 591F5F82
 P 3405 5790
 F 0 "#PWR017" H 3405 5540 50  0001 C CNN
@@ -1181,15 +1147,17 @@ L interferometer-rescue:C C13
 U 1 1 592057BF
 P 8500 5150
 F 0 "C13" H 8200 5200 50  0000 L CNN
-F 1 "0.1uF" H 8150 5100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8538 5000 50  0001 C CNN
+F 1 "100nF" H 8150 5100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8538 5000 50  0001 C CNN
 F 3 "" H 8500 5150 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8500 5150 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21B104JBCNNNC" H 8500 5150 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "CL21B104JBCNNNC" H 8500 5150 50  0001 C CNN "manf#"
 	1    8500 5150
 	1    0    0    -1  
 $EndComp
-Connection ~ 9100 5000
 $Comp
-L power:GNDA #PWR018
+L interferometer-rescue:GNDA #PWR018
 U 1 1 59205C76
 P 8500 5350
 F 0 "#PWR018" H 8500 5100 50  0001 C CNN
@@ -1212,7 +1180,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 3500 7850 3650
 $Comp
-L power:GNDA #PWR019
+L interferometer-rescue:GNDA #PWR019
 U 1 1 59206D7C
 P 7850 3650
 F 0 "#PWR019" H 7850 3400 50  0001 C CNN
@@ -1223,7 +1191,7 @@ F 3 "" H 7850 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR020
+L interferometer-rescue:GNDA #PWR020
 U 1 1 5920C7C9
 P 1450 2150
 F 0 "#PWR020" H 1450 1900 50  0001 C CNN
@@ -1233,15 +1201,13 @@ F 3 "" H 1450 2150 50  0001 C CNN
 	1    1450 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9500 4600 9700 4600
 $Comp
 L interferometer-rescue:R R11
 U 1 1 592166B5
 P 10100 5050
 F 0 "R11" H 10170 5096 50  0000 L CNN
-F 1 "5.1k" H 10170 5005 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 10030 5050 50  0001 C CNN
+F 1 "5.1kohms" H 10170 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10030 5050 50  0001 C CNN
 F 3 "" H 10100 5050 50  0001 C CNN
 	1    10100 5050
 	1    0    0    -1  
@@ -1251,16 +1217,19 @@ L interferometer-rescue:C C14
 U 1 1 592167F4
 P 9900 4600
 F 0 "C14" V 9648 4600 50  0000 C CNN
-F 1 "0.1uF" V 9739 4600 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9938 4450 50  0001 C CNN
+F 1 "100nF" V 9739 4600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9938 4450 50  0001 C CNN
 F 3 "" H 9900 4600 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 9900 4600 50  0001 C CNN "Manufacturer_Name"
+F 5 "CL21B104JBCNNNC" H 9900 4600 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "CL21B104JBCNNNC" H 9900 4600 50  0001 C CNN "manf#"
 	1    9900 4600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	10050 4600 10100 4600
 $Comp
-L power:GNDA #PWR021
+L interferometer-rescue:GNDA #PWR021
 U 1 1 59216D38
 P 10100 5300
 F 0 "#PWR021" H 10100 5050 50  0001 C CNN
@@ -1273,18 +1242,7 @@ $EndComp
 Wire Wire Line
 	10100 5300 10100 5200
 $Comp
-L interferometer-rescue:GS2 J1
-U 1 1 59219F5F
-P 1750 6900
-F 0 "J1" V 1545 6900 50  0000 C CNN
-F 1 "GS2" V 1636 6900 50  0000 C CNN
-F 2 "Connectors:GS2" V 1824 6900 50  0001 C CNN
-F 3 "" H 1750 6900 50  0001 C CNN
-	1    1750 6900
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDA #PWR022
+L interferometer-rescue:GNDA #PWR022
 U 1 1 5921A1DD
 P 1550 7050
 F 0 "#PWR022" H 1550 6800 50  0001 C CNN
@@ -1332,8 +1290,6 @@ Wire Wire Line
 Wire Wire Line
 	1150 3900 1350 3900
 Wire Wire Line
-	8800 4700 8900 4700
-Wire Wire Line
 	9700 4600 9750 4600
 Wire Wire Line
 	8800 5200 8800 5600
@@ -1341,8 +1297,6 @@ Wire Wire Line
 	9700 5200 9700 5600
 Wire Wire Line
 	8650 4000 8800 4000
-Wire Wire Line
-	8650 4000 8650 4500
 Wire Wire Line
 	10550 4800 10750 4800
 Wire Wire Line
@@ -1356,9 +1310,108 @@ Wire Wire Line
 Wire Wire Line
 	3650 2000 4300 2000
 Wire Wire Line
-	9100 5000 9200 5000
-Wire Wire Line
 	10100 4600 10200 4600
 Wire Notes Line
 	475  4740 5900 4740
+$Comp
+L OPA320SAIDBVT:OPA320SAIDBVT U2
+U 1 1 5EA140AA
+P 8200 4350
+F 0 "U2" H 8800 4200 50  0000 C CNN
+F 1 "OPA320SAIDBVT" H 8800 4100 50  0000 C CNN
+F 2 "OPA320SAIDBVT:SOT95P280X145-6N" H 9250 4450 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/OPA320" H 9250 4350 50  0001 L CNN
+F 4 "Precision, Zero-Crossover, 20MHz, 0.9pA Ib, RRIO, CMOS Operational Amplifier" H 9250 4250 50  0001 L CNN "Description"
+F 5 "1.45" H 9250 4150 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 9250 4050 50  0001 L CNN "Manufacturer_Name"
+F 7 "OPA320SAIDBVT" H 9250 3950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-OPA320SAIDBVT" H 9250 3850 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-OPA320SAIDBVT" H 9250 3750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 9250 3650 50  0001 L CNN "RS Part Number"
+F 11 "" H 9250 3550 50  0001 L CNN "RS Price/Stock"
+F 12 "OPA320SAIDBVT" H 8200 4350 50  0001 C CNN "manf#"
+	1    8200 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 5000 8050 5000
+Wire Wire Line
+	8650 4000 8650 4200
+Wire Wire Line
+	8050 5000 8050 4450
+Wire Wire Line
+	8050 4450 8200 4450
+Wire Wire Line
+	9550 4800 9550 4450
+Wire Wire Line
+	9550 4450 9400 4450
+Wire Wire Line
+	9550 4800 10550 4800
+Wire Wire Line
+	9450 4000 9450 4350
+Wire Wire Line
+	9450 4350 9400 4350
+Wire Wire Line
+	9050 5200 9050 4800
+Wire Wire Line
+	9050 4800 9400 4800
+Wire Wire Line
+	9400 4800 9400 4550
+Connection ~ 9050 5200
+Wire Wire Line
+	9050 5200 8800 5200
+Wire Wire Line
+	9700 4600 9700 4250
+Wire Wire Line
+	9700 4250 8200 4250
+Wire Wire Line
+	8200 4250 8200 4350
+Connection ~ 9700 4600
+Wire Wire Line
+	8650 4200 8150 4200
+Wire Wire Line
+	8150 4200 8150 4550
+Wire Wire Line
+	8150 4550 8200 4550
+$Comp
+L interferometer-rescue:GS2 J1
+U 1 1 59219F5F
+P 1750 6900
+F 0 "J1" V 1545 6900 50  0000 C CNN
+F 1 "GS2" V 1636 6900 50  0000 C CNN
+F 2 "1x02 GS2:GS2" V 1824 6900 50  0001 C CNN
+F 3 "" H 1750 6900 50  0001 C CNN
+	1    1750 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L interferometer-rescue:ADN8810ACP U1
+U 1 1 5EA4013A
+P 9000 1750
+F 0 "U1" H 9000 1700 60  0000 C CNN
+F 1 "ADN8810ACP" H 9000 1600 60  0000 C CNN
+F 2 "ADN8810ACPZ:ADN8810ACPZ" H 9000 1500 60  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADN8810.pdf" H 8750 1700 60  0000 C CNN
+F 4 "Analog Devices" H 9000 1750 50  0001 C CNN "Manufacturer_Name"
+F 5 "ADN8810ACPZ" H 9000 1750 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "584-ADN8810ACPZ" H 9000 1750 50  0001 C CNN "Mouser Part Number"
+F 7 "ADN8810ACPZ" H 9000 1750 50  0001 C CNN "manf#"
+	1    9000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L interferometer-rescue:TESTPOINT TP1
+U 1 1 591D12B6
+P 6105 5495
+F 0 "TP1" H 6183 5619 40  0000 L CNN
+F 1 "TESTPOINT" H 6183 5551 30  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6105 5495 60  0001 C CNN
+F 3 "" H 6105 5495 60  0000 C CNN
+	1    6105 5495
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6105 5575 5975 5575
+Text Label 5975 5575 0    60   ~ 0
+A0
 $EndSCHEMATC
