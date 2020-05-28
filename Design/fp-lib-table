@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name freetronics_footprints)(type KiCad)(uri "$(KIPRJMOD)/footprints/freetronics_footprints.pretty")(options "")(descr ""))
   (lib (name ADN8810ACPZ)(type KiCad)(uri "$(KIPRJMOD)/footprints/ADN8810ACPZ.pretty")(options "")(descr ""))
+  (lib (name Legacy_Connectors)(type KiCad)(uri "$(KIPRJMOD)/footprints/Legacy_Connectors.pretty")(options "")(descr ""))
 )
