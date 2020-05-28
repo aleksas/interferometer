@@ -55,11 +55,11 @@
 
 
 /* IN1ADG884 - 0.3 - output */
-#define IN1ADG884_PIN         10
+//#define IN1ADG884_PIN         10
 
 /** ADN8810 pin configuration  */
 /* CSADN8810 - 0.5 - output */
-#define CSADN8810_PIN            8
+#define CSADN8810_PIN            10
 
 /* IO7ADN8810 - 2.2 - output */
 #define IO7ADN8810_PIN           7

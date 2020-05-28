@@ -93,7 +93,6 @@ uint32_t ADN8810_FactoryCalibration(void)
   digitalWrite(CSADN8810_PIN, LOW);                           // Set CS_N_ARD to logic 0
   SPI_Write(ui8UpperByte, ui8LowerByte, SPI_WRITE_DAC_REG);   // Load FS code into ADN8810 DAC
   digitalWrite(CSADN8810_PIN, HIGH);                          // Set CS_N_ARD to logic 1
-  digitalWrite(IN1ADG884_PIN, HIGH);                          // set IN1 to logic 1
 
   delay(50);                                                  // delay 50ms
 
@@ -117,11 +116,13 @@ int ADN8810_SetOutput(float fDesiredOutputCurrent, sMeasurementVariables *sMeasV
   // Adjust the current with the gain correction factor
   fDesiredOutputCurrent *= sMeasVar->K1;
 
+  fDesiredOutputCurrent=0; // override
   if (fDesiredOutputCurrent > ADN8810_IFS) {
     return -1;
   }
   else {
     ui16DacInputCode = ADN8810_CurrentToDataInputCalc(fDesiredOutputCurrent); // Convert input current to a DAC value
+    ui16DacInputCode = ADN8810_FULL_SCALE_OUT; //override
 
     uint8_t ui8UpperByte = 0;       /* Data byte MSB */
     uint8_t ui8LowerByte = 0;       /* Data byte LSB */

@@ -14,7 +14,7 @@ void setup() {
   /* Initialize SPI */
   SPI.begin();
   SPI.setDataMode(SPI_MODE0); //CPHA = CPOL = 0    MODE = 0
-
+    
   pinMode(CSADN8810_PIN, OUTPUT);
   digitalWrite(CSADN8810_PIN, HIGH);
 
@@ -57,8 +57,8 @@ void CN0395_CmdCalibration(sMeasurementVariables *sMeasVar)
 }
 
 void loop() {
-  CN0395_CmdCalibration(sMeasVar);
-  CN0395_CmdSetHeaterCurrent(0, sMeasVar);
+  //CN0395_CmdCalibration(sMeasVar);
+  /CN0395_CmdSetHeaterCurrent(0, sMeasVar);
   delay(50); // delay 50ms
 }
 

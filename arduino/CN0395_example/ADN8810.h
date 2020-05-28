@@ -59,7 +59,7 @@
 #define ADC_VREF  4.096 // V
 #define ADC_CODE_CALIBRATION  (((ADN8810_IFS * 71.5) / 1000) / ADC_VREF * 65535)
 
-#define ADN8810_ADR                 0x07   // Hard wired device address
+#define ADN8810_ADR                 slaveSelectPin //0x07   // Hard wired device address
 #define ADN8810_RSN                 41.2 // Ohms
 #define ADN8810_CURRENT_1LSB        (1 / (10 * ADN8810_RSN))      // For RSN = 41.2ohms, 1 LSB resolution = 2.4uA
 #define ADN8810_IFS                 ((ADC_VREF / ADN8810_RSN) * 100) // Full Scale current, for RSN = 41.2ohms, IFS = 9.94mA
