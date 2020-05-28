@@ -1453,7 +1453,7 @@
       (net 26 /5v))
     (pad 1 smd rect (at -2.8194 -0.974999 180) (size 1.4732 0.3556) (layers F.Cu F.Paste F.Mask)
       (net 51 "Net-(U3-Pad1)"))
-    (model "/home/bigbitsoko/Desktop/project files/ultra-librarian/3D/2017-05-17_23-17-03/STEP/RU_8-L.step"
+    (model packages3d/Voltage_References_SMD.3dshapes/RU_8_ADI-L.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1486,7 +1486,7 @@
       (net 61 "Net-(C12-Pad1)"))
     (pad 1 smd rect (at -1.25 0 180) (size 1.5 1.25) (layers B.Cu B.Paste B.Mask)
       (net 4 /A0))
-    (model Capacitors_SMD.3dshapes/C_0805_HandSoldering.wrl
+    (model packages3d/Capacitors_SMD.3dshapes/C_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1519,7 +1519,7 @@
       (net 8 Earth))
     (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers B.Cu B.Paste B.Mask)
       (net 4 /A0))
-    (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+    (model packages3d/Resistors_SMD.3dshapes/R_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1552,7 +1552,7 @@
       (net 8 Earth))
     (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
       (net 41 /AVSS))
-    (model Capacitors_SMD.3dshapes/C_0805_HandSoldering.wrl
+    (model packages3d/Capacitors_SMD.3dshapes/C_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1585,7 +1585,7 @@
       (net 8 Earth))
     (pad 1 smd rect (at -1.25 0 180) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
       (net 41 /AVSS))
-    (model Capacitors_SMD.3dshapes/C_0805_HandSoldering.wrl
+    (model packages3d/Capacitors_SMD.3dshapes/C_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1626,7 +1626,7 @@
       (net 41 /AVSS))
     (pad 1 smd rect (at -1.1 -0.95) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask)
       (net 61 "Net-(C12-Pad1)"))
-    (model TO_SOT_Packages_SMD.3dshapes/SOT-23-6.wrl
+    (model packages3d/TO_SOT_Packages_SMD.3dshapes/SOT-23-6.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1659,7 +1659,7 @@
       (net 42 "Net-(C7-Pad2)"))
     (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 41 /AVSS))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model packages3d/Resistors_SMD.3dshapes/R_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1765,7 +1765,7 @@
       (net 63 "Net-(D1-Pad1)"))
     (pad 2 smd rect (at 1.1 0 270) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 26 /5v))
-    (model LEDs.3dshapes/LED_0805.wrl
+    (model packages3d/LEDs_SMD.3dshapes/LED_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1803,7 +1803,7 @@
       (net 62 "Net-(D2-Pad1)"))
     (pad 2 smd rect (at 1.1 0 270) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 9 /3v3))
-    (model LEDs.3dshapes/LED_0805.wrl
+    (model packages3d/LEDs_SMD.3dshapes/LED_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1836,7 +1836,7 @@
       (net 8 Earth))
     (pad 1 smd rect (at -1.35 0 270) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
       (net 63 "Net-(D1-Pad1)"))
-    (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+    (model packages3d/Resistors_SMD.3dshapes/R_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1869,7 +1869,7 @@
       (net 8 Earth))
     (pad 1 smd rect (at -1.35 0 270) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
       (net 62 "Net-(D2-Pad1)"))
-    (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+    (model packages3d/Resistors_SMD.3dshapes/R_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1896,7 +1896,7 @@
       (net 43 /PD))
     (pad 2 thru_hole circle (at 0 -1) (size 0.9 0.9) (drill 0.5) (layers *.Cu *.Mask)
       (net 26 /5v))
-    (model "/home/bigbitsoko/Desktop/project files/ultra-librarian/3D/User Library-TO-18 Laser Diode (M140).STEP"
+    (model packages3d/Laser_Diodes.3dshapes/Lase_Diode_TO-18.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -2074,7 +2074,7 @@
       (net 46 /RSN))
     (pad 1 smd rect (at -1.8923 -1.25 180) (size 0.3048 0.8128) (layers F.Cu F.Paste F.Mask)
       (net 37 /chip_addr2))
-    (model "/home/bigbitsoko/Desktop/project files/ultra-librarian/3D/2017-05-17_09-12-12/STEP/CP_24_1-L.step"
+    (model "packages3d/Laser_Drivers_SMD.3dshapes/CP_24_1_ADI-L.step"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2107,7 +2107,7 @@
       (net 8 Earth))
     (pad 1 smd rect (at -1.25 0 180) (size 1.5 1.25) (layers B.Cu B.Paste B.Mask)
       (net 26 /5v))
-    (model Capacitors_SMD.3dshapes/C_0805_HandSoldering.wrl
+    (model packages3d/Capacitors_SMD.3dshapes/C_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2140,7 +2140,7 @@
       (net 43 /PD))
     (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
       (net 61 "Net-(C12-Pad1)"))
-    (model Capacitors_SMD.3dshapes/C_0805_HandSoldering.wrl
+    (model packages3d/Capacitors_SMD.3dshapes/C_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2173,7 +2173,7 @@
       (net 8 Earth))
     (pad 1 smd rect (at -1.25 0 90) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
       (net 26 /5v))
-    (model Capacitors_SMD.3dshapes/C_0805_HandSoldering.wrl
+    (model packages3d/Capacitors_SMD.3dshapes/C_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2206,7 +2206,7 @@
       (net 8 Earth))
     (pad 1 smd rect (at -1.25 0 90) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
       (net 26 /5v))
-    (model Capacitors_SMD.3dshapes/C_0805_HandSoldering.wrl
+    (model packages3d/Capacitors_SMD.3dshapes/C_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2239,7 +2239,7 @@
       (net 8 Earth))
     (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
       (net 50 /4.096_VREF))
-    (model Capacitors_SMD.3dshapes/C_0805_HandSoldering.wrl
+    (model packages3d/Capacitors_SMD.3dshapes/C_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2272,7 +2272,7 @@
       (net 38 "Net-(C3-Pad1)"))
     (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
       (net 8 Earth))
-    (model Capacitors_SMD.3dshapes/C_0805_HandSoldering.wrl
+    (model packages3d/Capacitors_SMD.3dshapes/C_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2305,7 +2305,7 @@
       (net 8 Earth))
     (pad 1 smd rect (at -1.25 0 180) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
       (net 26 /5v))
-    (model Capacitors_SMD.3dshapes/C_0805_HandSoldering.wrl
+    (model packages3d/Capacitors_SMD.3dshapes/C_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2338,7 +2338,7 @@
       (net 42 "Net-(C7-Pad2)"))
     (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
       (net 8 Earth))
-    (model Capacitors_SMD.3dshapes/C_0805_HandSoldering.wrl
+    (model packages3d/Capacitors_SMD.3dshapes/C_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2371,7 +2371,7 @@
       (net 8 Earth))
     (pad 1 smd rect (at -2 0 270) (size 2 2.5) (layers F.Cu F.Paste F.Mask)
       (net 41 /AVSS))
-    (model Capacitors_SMD.3dshapes/C_1210_HandSoldering.wrl
+    (model packages3d/Capacitors_SMD.3dshapes/C_1210.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2404,7 +2404,7 @@
       (net 8 Earth))
     (pad 1 smd rect (at -2 0 270) (size 2 2.5) (layers F.Cu F.Paste F.Mask)
       (net 9 /3v3))
-    (model Capacitors_SMD.3dshapes/C_1210_HandSoldering.wrl
+    (model packages3d/Capacitors_SMD.3dshapes/C_1210.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2437,7 +2437,7 @@
       (net 8 Earth))
     (pad 1 smd rect (at -2 0 270) (size 2 2.5) (layers F.Cu F.Paste F.Mask)
       (net 26 /5v))
-    (model Capacitors_SMD.3dshapes/C_1210_HandSoldering.wrl
+    (model packages3d/Capacitors_SMD.3dshapes/C_1210.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2470,7 +2470,7 @@
       (net 43 /PD))
     (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 61 "Net-(C12-Pad1)"))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model packages3d/Resistors_SMD.3dshapes/R_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2503,7 +2503,7 @@
       (net 41 /AVSS))
     (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 46 /RSN))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model packages3d/Resistors_SMD.3dshapes/R_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2536,7 +2536,7 @@
       (net 42 "Net-(C7-Pad2)"))
     (pad 1 smd rect (at -0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 9 /3v3))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model packages3d/Resistors_SMD.3dshapes/R_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2569,7 +2569,7 @@
       (net 19 /~SHDN))
     (pad 1 smd rect (at -1.35 0 270) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
       (net 9 /3v3))
-    (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+    (model packages3d/Resistors_SMD.3dshapes/R_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2602,7 +2602,7 @@
       (net 18 /~laser_standby))
     (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
       (net 9 /3v3))
-    (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+    (model packages3d/Resistors_SMD.3dshapes/R_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2635,7 +2635,7 @@
       (net 21 /~CS))
     (pad 1 smd rect (at -1.35 0 180) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
       (net 9 /3v3))
-    (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+    (model packages3d/Resistors_SMD.3dshapes/R_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2668,7 +2668,7 @@
       (net 16 /~laser_reset))
     (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
       (net 9 /3v3))
-    (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+    (model packages3d/Resistors_SMD.3dshapes/R_0805.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2709,7 +2709,7 @@
       (net 48 "Net-(Q1-Pad2)"))
     (pad 1 smd rect (at -1.1 -0.95 90) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask)
       (net 49 "Net-(Q1-Pad1)"))
-    (model TO_SOT_Packages_SMD.3dshapes/SOT-23-6.wrl
+    (model packages3d/TO_SOT_Packages_SMD.3dshapes/SOT-23-6.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2751,13 +2751,13 @@
       (net 40 /chip_addr1))
     (pad 1 thru_hole oval (at 0 0 270) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask)
       (net 8 Earth))
-    (model "/home/bigbitsoko/Desktop/project files/ultra-librarian/3D/headers/Pin Header 1x3 TH Pitch 2.54mm.stp"
+    (model "packages3d/Single_Row_Pin_Headers.3dshapes/Pin Header 1x3 TH Pitch 2.54mm.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "/home/bigbitsoko/Desktop/project files/ultra-librarian/3D/jumper/MJ-0.step"
-      (at (xyz 0.05 0 0.11))
+    (model packages3d/Jumpers.3dshapes/Jumper.step
+      (at (xyz 0.05 0 0.02))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -2798,13 +2798,13 @@
       (net 39 /chip_addr0))
     (pad 1 thru_hole oval (at 0 0 270) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask)
       (net 8 Earth))
-    (model "/home/bigbitsoko/Desktop/project files/ultra-librarian/3D/headers/Pin Header 1x3 TH Pitch 2.54mm.stp"
+    (model "packages3d/Single_Row_Pin_Headers.3dshapes/Pin Header 1x3 TH Pitch 2.54mm.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "/home/bigbitsoko/Desktop/project files/ultra-librarian/3D/jumper/MJ-0.step"
-      (at (xyz 0.05 0 0.11))
+    (model packages3d/Jumpers.3dshapes/Jumper.step
+      (at (xyz 0.05 0 0.02))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -2845,13 +2845,13 @@
       (net 38 "Net-(C3-Pad1)"))
     (pad 1 thru_hole oval (at 0 0 270) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask)
       (net 26 /5v))
-    (model "/home/bigbitsoko/Desktop/project files/ultra-librarian/3D/headers/Pin Header 1x3 TH Pitch 2.54mm.stp"
+    (model "packages3d/Single_Row_Pin_Headers.3dshapes/Pin Header 1x3 TH Pitch 2.54mm.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "/home/bigbitsoko/Desktop/project files/ultra-librarian/3D/jumper/MJ-0.step"
-      (at (xyz 0.15 0 0.11))
+    (model packages3d/Jumpers.3dshapes/Jumper.step
+      (at (xyz 0.15 0 0.02))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -2892,13 +2892,13 @@
       (net 37 /chip_addr2))
     (pad 1 thru_hole oval (at 0 0 270) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask)
       (net 8 Earth))
-    (model "/home/bigbitsoko/Desktop/project files/ultra-librarian/3D/headers/Pin Header 1x3 TH Pitch 2.54mm.stp"
+    (model "packages3d/Single_Row_Pin_Headers.3dshapes/Pin Header 1x3 TH Pitch 2.54mm.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "/home/bigbitsoko/Desktop/project files/ultra-librarian/3D/jumper/MJ-0.step"
-      (at (xyz 0.05 0 0.11))
+    (model packages3d/Jumpers.3dshapes/Jumper.step
+      (at (xyz 0.05 0 0.02))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -3003,22 +3003,22 @@
       (net 2 "Net-(SHIELD1-PadAD4)"))
     (pad AD5 thru_hole oval (at 63.5 -2.54 90) (size 2.54 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 "Net-(SHIELD1-PadAD5)"))
-    (model "/home/bigbitsoko/Desktop/project files/ultra-librarian/3D/headers/Pin Header 1x8 TH Pitch 2.54mm.stp"
+    (model "packages3d/Single_Row_Pin_Headers.3dshapes/Pin Header 1x8 TH Pitch 2.54mm.stp"
       (at (xyz 1.8 2 -0.05))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
     )
-    (model "/home/bigbitsoko/Desktop/project files/ultra-librarian/3D/headers/Pin Header 1x10 TH Pitch 2.54mm.stp"
+    (model "packages3d/Single_Row_Pin_Headers.3dshapes/Pin Header 1x10 TH Pitch 2.54mm.stp"
       (at (xyz 0.75 2 -0.05))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
     )
-    (model "/home/bigbitsoko/Desktop/project files/ultra-librarian/3D/headers/Pin Header 1x6 TH Pitch 2.54mm.stp"
+    (model "packages3d/Single_Row_Pin_Headers.3dshapes/Pin Header 1x6 TH Pitch 2.54mm.stp"
       (at (xyz 2 0.1 -0.05))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
     )
-    (model "/home/bigbitsoko/Desktop/project files/ultra-librarian/3D/headers/Pin Header 1x8 TH Pitch 2.54mm.stp"
+    (model "packages3d/Single_Row_Pin_Headers.3dshapes/Pin Header 1x8 TH Pitch 2.54mm.stp"
       (at (xyz 1.1 0.1 -0.06))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
