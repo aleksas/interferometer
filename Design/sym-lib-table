@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name interferometer-rescue)(type Legacy)(uri ${KIPRJMOD}/symbols/interferometer-rescue.lib)(options "")(descr ""))
+  (lib (name freetronics_schematic)(type Legacy)(uri ${KIPRJMOD}/symbols/freetronics_schematic.lib)(options "")(descr ""))
+  (lib (name ADN8810ACPZ)(type Legacy)(uri ${KIPRJMOD}/symbols/ADN8810ACPZ.lib)(options "")(descr ""))
+)

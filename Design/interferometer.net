@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source "/home/bigbitsoko/Desktop/project files/Design/interferometer.sch")
+    (source "interferometer.sch")
     (date "Fri 19 May 2017 02:17:07 AM EAT")
     (tool "Eeschema no-vcs-found-9992a07~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
@@ -452,9 +452,9 @@
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical ADN8810ACPZ)
-      (uri "/home/bigbitsoko/Desktop/project files/Design/ADN8810ACPZ.lib"))
+      (uri "symbols/ADN8810ACPZ.lib"))
     (library (logical freetronics_schematic)
-      (uri "/home/bigbitsoko/Desktop/project files/Design/freetronics_kicad_library-master/freetronics_schematic.lib")))
+      (uri "symbols/freetronics_schematic.lib")))
   (nets
     (net (code 1) (name /MOSI)
       (node (ref SHIELD1) (pin 11))
