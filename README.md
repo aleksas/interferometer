@@ -18,9 +18,11 @@ Main motivation is to develope a convinient device toplay around with self mixin
     - [x] Optional: update [KiCAD model](./pcb/)
       - so that it visualizes electronic components in 3D
       - doesn't depend on deprecated symbols
+    - [x] Assess the modulation frequency of ADN8810
+      - [~333 kHZ](https://electronics.stackexchange.com/questions/497171/adn8810-control-frequency-from-arduino-due/497173?noredirect=1#comment1266315_497173)
     - [ ] Assess the probable performace of the board
       - [ ] Controlled by [Arduino DUE](https://www.arduino.cc/en/Guide/ArduinoDue) (preferred)
-        - [ ] What is maximum laser diode modulation frequency
+        - [ ] What is maximum laser diode modulation frequencynoredirect=1#comment1266315_497173)
         - [ ] What is the maximum precision of modulated current 
       - [ ] Controlled by [STM32F4DISCOVERY](https://www.st.com/en/evaluation-tools/stm32f4discovery.html)
         - [ ] What is maximum laser diode modulation frequency
@@ -29,7 +31,8 @@ Main motivation is to develope a convinient device toplay around with self mixin
     - [x] Assemble board and connect to Arduino or arduino form factor development board
     - [ ] Write software to control PCB laser diode modulation
       - [Code for modulatin ADN8810 from arduino](https://github.com/analogdevicesinc/arduino/blob/486ce99954853b3e9f34e81e827f400b49ca4765/Arduino%20Uno%20R3/examples/CN0395_example/ADN8810.cpp#L117-L140)
-      - [Arduino SPI Barometric Pressure Sensor](https://www.arduino.cc/en/Tutorial/BarometricPressureSensor)
+      - [Arduino SPI Barometric Pressure Sensor](https://www.arduino.cc/en/Tutorial/BarometricPressureSensor)      
+      - [Some code](./arduino)
     - [ ] Verify laser diode modulation input
     - [ ] Verify laser monitor diode signal has interference pattern
   - [ ] __Estimating values form monitor diode signal__
