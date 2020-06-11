@@ -17,7 +17,7 @@ Main motivation is to develope a convinient device toplay around with self mixin
       - so that it visualizes electronic components in 3D
       - doesn't depend on deprecated symbols
     - [x] Assess the modulation frequency of ADN8810
-      - [~333 kHZ](https://electronics.stackexchange.com/questions/497171/adn8810-control-frequency-from-arduino-due/497173?noredirect=1#comment1266315_497173)
+      - [~333 kHZ](https://electronics.stackexchange.com/a/497173/249362)
     - [ ] Assess the probable performace of the board
       - [ ] Controlled by [Arduino DUE](https://www.arduino.cc/en/Guide/ArduinoDue) (preferred)
         - [ ] What is maximum laser diode modulation frequencynoredirect=1#comment1266315_497173)
