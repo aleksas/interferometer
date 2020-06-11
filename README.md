@@ -34,7 +34,7 @@ Main motivation is to develope a convinient device toplay around with self mixin
     - [ ] Verify laser diode modulation input
     - [ ] Verify laser monitor diode signal has interference pattern
   - [ ] __Estimating values form monitor diode signal__
-    - FPGA ?
+    - Arduino ADC or FPGA
 - [ ] Software for theoretical signal simulation and distance,velocity estimation
   - [ ] [Python scripts for simulating and estimatimating values](https://gist.github.com/aleksas/e764e93894b7945427d594147ea23370)
     - [x] Distance to stationary object
