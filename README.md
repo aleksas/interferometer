@@ -10,8 +10,6 @@ Main motivation is to develope a convinient device toplay around with self mixin
 - [ ] Update [current arduino shield](./pcb/) to make convinient self-mxing laser interferometry easily accesible
   - [ ] __Laser diode current modulation__
     - [ ] (Optional) Reproduce convinient SPICE simulation from [document (p. 34)](./documents/Laser_diode_modulation.pdf)
-      - [ ] Provide instructions to run laser diode SPICE simulation
-      - [ ] Verify via SPICE simuation laser diode is geting correct modulated current supply
     - [x] Prepare board for convinient pcb manufacturing
       Capacitors, resistors, leds are loosely defined. Missing voltage and maybe other parameters. Entries like ARDUINO_SHIELD or measuring points only add to the confusion.  
       - [EasyEda](https://easyeda.com/aleksas_/self-mixing-laser-interferometer) | [LCSC](https://lcsc.com/)
