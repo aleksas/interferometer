@@ -2,7 +2,6 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP OPA320SAIDBVT
 D Precision, Zero-Crossover, 20MHz, 0.9pA Ib, RRIO, CMOS Operational Amplifier
-K
 F http://www.ti.com/lit/gpn/OPA320
 $ENDCMP
 #
