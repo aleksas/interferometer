@@ -10,4 +10,8 @@
 
 ### ADL-65055TL - N-Type ALGalnP Visible Laser Diode by [Laser Comonents](https://www.lasercomponents.com/)/[Arima Lasers](https://www.arimalasers.com/)
 - [Data Sheet](./adl-65055tl.pdf) (sources: [1](https://www.lasercomponents.com/fileadmin/user_upload/home/Datasheets/arima/655nm/adl-65055tl.pdf), [2](http://www.farnell.com/datasheets/43655.pdf?_ga=2.22848763.1942577091.1592211693-817925239.1592211693), [3](http://www.farnell.com/datasheets/43655.pdf))
-- [PSpice](https://gist.githubusercontent.com/aleksas/1e79fb7c3defe378cb3345b0bdc5ecfe/raw/5eaaa302715f7dc748eb9bb05c8e946bc3aef742/ADL65055TL.cir)
+- [PSpice](https://gist.githubusercontent.com/aleksas/1e79fb7c3defe378cb3345b0bdc5ecfe/raw/831f2d5b234860ef51adb03d32b943740f8ef517/ADL65055TL.PSPICE.lib)
+
+### [FDC637BNZ](https://www.onsemi.com/products/discretes-drivers/mosfets/fdc637bnz) - N-Channel 2.5V Specified PowerTrench MOSFET by [ON Semiconductor](https://www.onsemi.com)
+- [Data Sheet](./FDC637BNZ-D.pdf) ([source](https://www.onsemi.com/pub/Collateral/FDC637BNZ-D.pdf))
+- [PSpice](https://github.com/aleksas/interferometer/blob/master/pcb/symbols/FDC637BNZ.PSPICE.lib) ([source](https://www.onsemi.com/pub/Collateral/FDC637BNZ.lib))
