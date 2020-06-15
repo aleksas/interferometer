@@ -1,6 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP Laserdiode_N_TYPE-Device
+D AlGalnP Visible Laser Diode
 F http://www.farnell.com/datasheets/43655.pdf
 $ENDCMP
 #
