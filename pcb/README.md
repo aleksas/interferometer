@@ -10,4 +10,4 @@ arduino form factor development boards such as the FREEDOM© series from NXP or 
 ## References
 - [Original project by Kiogora](https://github.com/Kiogora/interferometer)
   - [Whitepaper](https://github.com/aleksas/interferometer/raw/master/documents/Laser_diode_modulation.pdf)
-- [PCB Components](./components)
+- [PCB Component Datasheets](./datasheets)
