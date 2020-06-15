@@ -17,7 +17,7 @@ F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-OPA320SAIDBVT" 1050 -6
 F10 "X" 1050 300 50 H I L CNN "Spice_Primitive"
 F11 "OPA320" 1050 300 50 H I L CNN "Spice_Model"
 F12 "Y" 1050 300 50 H I L CNN "Spice_Netlist_Enabled"
-F13 "symbols\\OPA320.PSPICE.LIB" 1050 300 50 H I L CNN "Spice_Lib_File"
+F13 "spice\\OPA320.LIB" 1050 300 50 H I L CNN "Spice_Lib_File"
 DRAW
 P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
 X VOUT 1 0 0 200 R 50 50 0 0 U
