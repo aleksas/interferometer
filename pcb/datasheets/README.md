@@ -5,7 +5,7 @@
 - [Data Sheet](./opa320.pdf) ([source](https://www.ti.com/lit/ds/symlink/opa320.pdf?ts=1592210569432))
 - [PSpice](../symbols/OPA320.PSPICE.LIB) ([source](https://www.ti.com/lit/zip/sbom437))
 
-### [ADR292 (ADR292GRUZ)](http://www.analog.com/ADR292) - Low Noise Micropower 4.096 V Precision Voltage Reference
+### [ADR292 (ADR292GRUZ)](http://www.analog.com/ADR292) - Low Noise Micropower 4.096 V Precision Voltage Reference [by Analog Devices](https://www.analog.com/)
 - [Data Sheet](./ADR291_292.pdf) ([source](https://www.analog.com/media/en/technical-documentation/data-sheets/ADR291_292.pdf))
 
 ### ADL-65055TL - N-Type ALGalnP Visible Laser Diode by [Laser Comonents](https://www.lasercomponents.com/)/[Arima Lasers](https://www.arimalasers.com/)
