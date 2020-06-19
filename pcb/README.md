@@ -23,6 +23,9 @@ arduino form factor development boards such as the FREEDOM© series from NXP or 
 - [Data Sheet](datasheets/adl-65055tl.pdf) (sources: [1](https://www.lasercomponents.com/fileadmin/user_upload/home/Datasheets/arima/655nm/adl-65055tl.pdf), [2](http://www.farnell.com/datasheets/43655.pdf?_ga=2.22848763.1942577091.1592211693-817925239.1592211693), [3](http://www.farnell.com/datasheets/43655.pdf))
 - [PSpice](spice/ADL65055TL.lib) ([source](https://www.eit.lth.se/sprapport.php?uid=824))
 
+### LTLD505T - Laser Diode 650nm 2.6VDC AlGaInP Laser Diode by [Lite-On Electronics](https://www.liteon.com/)
+- [Data Sheet](datasheets/LTLD505T.pdf) ([source](https://www.jameco.com/Jameco/Products/ProdDS/2120428.pdf))
+
 ### [FDC637BNZ](https://www.onsemi.com/products/discretes-drivers/mosfets/fdc637bnz) - N-Channel 2.5V Specified PowerTrench MOSFET by [ON Semiconductor](https://www.onsemi.com)
 - [Data Sheet](datasheets/FDC637BNZ-D.pdf) ([source](https://www.onsemi.com/pub/Collateral/FDC637BNZ-D.pdf))
 - [PSpice](spice/FDC637BNZ.lib) ([source](https://www.onsemi.com/pub/Collateral/FDC637BNZ.lib))
