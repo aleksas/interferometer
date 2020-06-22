@@ -27,7 +27,7 @@ Main motivation is to develope a convinient device toplay around with self mixin
         - [ ] What is the maximum precision of modulated current     
   - [ ] __Physical printed and assemled board validation__
     - [x] Assemble board and connect to Arduino or arduino form factor development board
-    - [ ] Write software to control PCB laser diode modulation
+    - [x] Write [software to control PCB laser diode modulation](./arduino/Uno_R3/modulation/modulation.ino)
       - [Code for modulatin ADN8810 from arduino](https://github.com/analogdevicesinc/arduino/blob/486ce99954853b3e9f34e81e827f400b49ca4765/Arduino%20Uno%20R3/examples/CN0395_example/ADN8810.cpp#L117-L140)
       - [Arduino SPI Barometric Pressure Sensor](https://www.arduino.cc/en/Tutorial/BarometricPressureSensor)
     - [ ] Verify laser diode modulation input
