@@ -1,0 +1,27 @@
+∗ LD = Laser diode cathode
+∗ C = Common pin
+∗ PD = Photodiode anode
+.SUBCKT ADL65055TL LD C PD
+
+∗ Laser diode power vs. current for 25C
+Eop op 0 TABLE {I(Vid)} (0,0) (18m,0.1m) (25m,6m)
+
+∗ uncomment for 40 C
+∗Eop op 0 TABLE {I(Vid)} (0,0) (21m, 0.15m) (29m,6m)
+
+∗ uncomment for 50 C
+∗Eop op 0 TABLE {I(Vid)} (0,0) (0,0) (24m,0.2m) (32m,6m)
+
+
+Rdummy op 0 1k
+∗ Monitor diode power vs . current
+Gopd C PD TABLE {V(op)} (0,0) (30m,1.5m)
+∗ Laser diode forward current and breakdown
+Dld C I dlaser
+Vid I LD
+.model dlaser D IS=5E−37 N=1 RS=2 BV=2 IBV=10u
+∗EG=2.8 XTI=3
+∗ Detector capacitance and breakdown
+Dpd PD C pdetec
+.model pde tec D CJO=5p BV=15 IBV=10u
+.ends

@@ -1,5 +1,5 @@
 gerbers: pcb/gerbers
-bom: pcb/1-click-bom.csv
+bom: pcb/BOM.csv
 summary: Self-mixing interferometer
 readme: pcb/README.md
 color: red

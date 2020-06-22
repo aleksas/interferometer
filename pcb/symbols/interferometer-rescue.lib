@@ -166,6 +166,10 @@ F0 "Q" -145 440 50 H V L CNN
 F1 "FDC637BNZ" -145 360 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23-6" -455 -380 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
+F4 "X" -145 440 50 H I L CNN "Spice_Primitive"
+F5 "FDC637BNZ" -145 540 50 H I L CNN "Spice_Model"
+F6 "Y" -145 440 50 H I L CNN "Spice_Netlist_Enabled"
+F7 "spice\\FDC637BNZ.lib" -445 640 50 H I L CNN "Spice_Lib_File"
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -296,6 +300,10 @@ F0 "LD" 40 280 50 H V C CNN
 F1 "Laserdiode_N_TYPE" 40 -220 50 H V C CNN
 F2 "" 0 75 50 H I C CNN
 F3 "" 50 -100 50 H I C CNN
+F4 "X" 40 280 50 H I C CNN "Spice_Primitive"
+F5 "ADL65055TL" 40 280 50 H I C CNN "Spice_Model"
+F6 "Y" 40 280 50 H I C CNN "Spice_Netlist_Enabled"
+F7 "spice\\ADL65055TL.lib" 40 280 50 H I C CNN "Spice_Lib_File"
 $FPLIST
  *LaserDiode*
 $ENDFPLIST
@@ -343,6 +351,10 @@ F0 "U" -450 -650 50 H V L CNN
 F1 "OPA320SAIDBVT" -450 -750 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23-6" 200 -550 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "X" -450 -650 50 H I L CNN "Spice_Primitive"
+F5 "OPA320" -450 -650 50 H I L CNN "Spice_Model"
+F6 "Y" -450 -650 50 H I L CNN "Spice_Netlist_Enabled"
+F7 "spice\\OPA320.LIB" -450 -650 50 H I L CNN "Spice_Lib_File"
 $FPLIST
  SOIC*3.9x4.9mm*Pitch1.27mm
  MSOP*3x3mm?Pitch0.65mm*

@@ -10,17 +10,17 @@ Main motivation is to develope a convinient device toplay around with self mixin
 - [ ] Update [current arduino shield](./pcb/) to make convinient self-mxing laser interferometry easily accesible
   - [ ] __Laser diode current modulation__
     - [ ] (Optional) Reproduce convinient SPICE simulation from [document (p. 34)](./documents/Laser_diode_modulation.pdf)
-      - [ ] Provide instructions to run laser diode SPICE simulation
-      - [ ] Verify via SPICE simuation laser diode is geting correct modulated current supply
     - [x] Prepare board for convinient pcb manufacturing
       Capacitors, resistors, leds are loosely defined. Missing voltage and maybe other parameters. Entries like ARDUINO_SHIELD or measuring points only add to the confusion.  
       - [EasyEda](https://easyeda.com/aleksas_/self-mixing-laser-interferometer) | [LCSC](https://lcsc.com/)
     - [x] Optional: update [KiCAD model](./pcb/)
       - so that it visualizes electronic components in 3D
       - doesn't depend on deprecated symbols
+    - [x] Assess the modulation frequency of ADN8810
+      - [~333 kHZ](https://electronics.stackexchange.com/a/497173/249362)
     - [ ] Assess the probable performace of the board
       - [ ] Controlled by [Arduino DUE](https://www.arduino.cc/en/Guide/ArduinoDue) (preferred)
-        - [ ] What is maximum laser diode modulation frequency
+        - [ ] What is maximum laser diode modulation frequencynoredirect=1#comment1266315_497173)
         - [ ] What is the maximum precision of modulated current 
       - [ ] Controlled by [STM32F4DISCOVERY](https://www.st.com/en/evaluation-tools/stm32f4discovery.html)
         - [ ] What is maximum laser diode modulation frequency
@@ -29,11 +29,12 @@ Main motivation is to develope a convinient device toplay around with self mixin
     - [x] Assemble board and connect to Arduino or arduino form factor development board
     - [x] Write [software to control PCB laser diode modulation](./arduino/Uno_R3/modulation/modulation.ino)
       - [Code for modulatin ADN8810 from arduino](https://github.com/analogdevicesinc/arduino/blob/486ce99954853b3e9f34e81e827f400b49ca4765/Arduino%20Uno%20R3/examples/CN0395_example/ADN8810.cpp#L117-L140)
-      - [Arduino SPI Barometric Pressure Sensor](https://www.arduino.cc/en/Tutorial/BarometricPressureSensor)
+      - [Arduino SPI Barometric Pressure Sensor](https://www.arduino.cc/en/Tutorial/BarometricPressureSensor)      
+      - [Some code](./arduino)
     - [ ] Verify laser diode modulation input
     - [ ] Verify laser monitor diode signal has interference pattern
   - [ ] __Estimating values form monitor diode signal__
-    - FPGA ?
+    - Arduino ADC (current solution implemented on PCB) or FPGA
 - [ ] Software for theoretical signal simulation and distance,velocity estimation
   - [ ] [Python scripts for simulating and estimatimating values](https://gist.github.com/aleksas/e764e93894b7945427d594147ea23370)
     - [x] Distance to stationary object

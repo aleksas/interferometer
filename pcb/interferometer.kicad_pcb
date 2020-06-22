@@ -362,22 +362,22 @@
       (net 2 "Net-(SHIELD1-PadAD4)"))
     (pad AD5 thru_hole oval (at 63.5 -2.54 90) (size 2.54 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 "Net-(SHIELD1-PadAD5)"))
-    (model "${KIPRJMOD}/3d_models/Pin Header 1x8 TH Pitch 2.54mm.stp"
+    (model "${KIPRJMOD}/packages3d/Pin Header 1x8 TH Pitch 2.54mm.stp"
       (offset (xyz 28 2.5 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
     )
-    (model "${KIPRJMOD}/3d_models/Pin Header 1x6 TH Pitch 2.54mm.stp"
+    (model "${KIPRJMOD}/packages3d/Pin Header 1x6 TH Pitch 2.54mm.stp"
       (offset (xyz 51 2.5 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
     )
-    (model "${KIPRJMOD}/3d_models/Pin Header 1x8 TH Pitch 2.54mm.stp"
+    (model "${KIPRJMOD}/packages3d/Pin Header 1x8 TH Pitch 2.54mm.stp"
       (offset (xyz 46 51 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
     )
-    (model "${KIPRJMOD}/3d_models/Pin Header 1x10 TH Pitch 2.54mm.stp"
+    (model "${KIPRJMOD}/packages3d/Pin Header 1x10 TH Pitch 2.54mm.stp"
       (offset (xyz 18.8 51 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
@@ -1351,7 +1351,7 @@
       (net 46 /RSN))
     (pad 1 smd rect (at -1.8923 -1.25 180) (size 0.3048 0.8128) (layers F.Cu F.Paste F.Mask)
       (net 37 /chip_addr2))
-    (model "${KIPRJMOD}/3d_models/CP_24_1_ADI-L.step"
+    (model "${KIPRJMOD}/packages3d/CP_24_1_ADI-L.step"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1429,7 +1429,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/3d_models/6pin IC.stp"
+    (model "${KIPRJMOD}/packages3d/6pin IC.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1482,7 +1482,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/3d_models/6pin IC.stp"
+    (model "${KIPRJMOD}/packages3d/6pin IC.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1819,7 +1819,7 @@
       (net 26 /5v))
     (pad 1 smd rect (at -2.8194 -0.974999 180) (size 1.4732 0.3556) (layers F.Cu F.Paste F.Mask)
       (net 51 "Net-(U3-Pad1)"))
-    (model "${KIPRJMOD}/3d_models/8pin IC.stp"
+    (model "${KIPRJMOD}/packages3d/8pin IC.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -1846,7 +1846,7 @@
       (net 43 /PD))
     (pad 2 thru_hole circle (at 0 -1) (size 0.9 0.9) (drill 0.5) (layers *.Cu *.Mask)
       (net 26 /5v))
-    (model "${KIPRJMOD}/3d_models/Lase Diode 3DModel.STEP"
+    (model "${KIPRJMOD}/packages3d/Lase Diode 3DModel.STEP"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -1888,7 +1888,7 @@
       (net 40 /chip_addr1))
     (pad 1 thru_hole oval (at 0 0 270) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask)
       (net 8 Earth))
-    (model "${KIPRJMOD}/3d_models/pin header 1x3 and jumper.stp"
+    (model "${KIPRJMOD}/packages3d/pin header 1x3 and jumper.stp"
       (offset (xyz 2.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1930,7 +1930,7 @@
       (net 39 /chip_addr0))
     (pad 1 thru_hole oval (at 0 0 270) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask)
       (net 8 Earth))
-    (model "${KIPRJMOD}/3d_models/pin header 1x3 and jumper.stp"
+    (model "${KIPRJMOD}/packages3d/pin header 1x3 and jumper.stp"
       (offset (xyz 2.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1972,7 +1972,7 @@
       (net 38 "Net-(C3-Pad1)"))
     (pad 1 thru_hole oval (at 0 0 270) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask)
       (net 26 /5v))
-    (model "${KIPRJMOD}/3d_models/pin header 1x3 and jumper.stp"
+    (model "${KIPRJMOD}/packages3d/pin header 1x3 and jumper.stp"
       (offset (xyz 2.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2014,7 +2014,7 @@
       (net 37 /chip_addr2))
     (pad 1 thru_hole oval (at 0 0 270) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask)
       (net 8 Earth))
-    (model "${KIPRJMOD}/3d_models/pin header 1x3 and jumper.stp"
+    (model "${KIPRJMOD}/packages3d/pin header 1x3 and jumper.stp"
       (offset (xyz 2.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
