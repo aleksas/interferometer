@@ -26,6 +26,7 @@ arduino form factor development boards such as the FREEDOM© series from NXP or 
 #### ADL-65055TL - N-Type ALGalnP Visible Laser Diode by [Laser Comonents](https://www.lasercomponents.com/)/[Arima Lasers](https://www.arimalasers.com/)
 - [Data Sheet](datasheets/adl-65055tl.pdf) (sources: [1](https://www.lasercomponents.com/fileadmin/user_upload/home/Datasheets/arima/655nm/adl-65055tl.pdf), [2](http://www.farnell.com/datasheets/43655.pdf?_ga=2.22848763.1942577091.1592211693-817925239.1592211693), [3](http://www.farnell.com/datasheets/43655.pdf))
 - [PSpice](spice/ADL65055TL.lib) ([source](https://www.eit.lth.se/sprapport.php?uid=824))
+- [Vendors](https://octopart.com/2008361-laser+components-23943555?r=sp)
 
 #### LTLD505T - Laser Diode 650nm 2.6VDC AlGaInP Laser Diode by [Lite-On Electronics](https://www.liteon.com/)
 - [Data Sheet](datasheets/LTLD505T.pdf) ([source](https://www.jameco.com/Jameco/Products/ProdDS/2120428.pdf))
