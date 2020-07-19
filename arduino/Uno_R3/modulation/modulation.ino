@@ -7,12 +7,20 @@
 
 #define SERIAL_COMM           false
 
-#define ADC_VREF  4.096f
-
 #define ADN8810_ADR                 0x00   // Hard wired device address
+#define ADN8810_RSN                 66.2f  // Ohms
+
 #define ADN8810_FULL_SCALE_OUT      4095
 #define ADN8810_HALF_SCALE_OUT      2048
 #define ADN8810_QUARTER_SCALE_OUT   1024
+
+#define ADN8810_CHOSEN_MAX_VALUE 1024
+#define ADN8810_CHOSEN_MIN_VALUE 512
+
+#define ADN8810_VALUE_COUNT (ADN8810_CHOSEN_MAX_VALUE - ADN8810_CHOSEN_MIN_VALUE)
+#define ADN8810_VALUE_HALF_COUNT (ADN8810_VALUE_COUNT / 2)
+
+#define ADN8810_DELAY_US 50
 
 typedef enum {
   ADN8810_DISABLE,
@@ -35,8 +43,7 @@ void ADN8810_Reset(void)
   digitalWrite(IO5ADN8810_PIN, HIGH);
 }
 
-void ADN8810_Init(void)
-{
+void ADN8810_Init(void) {
   pinMode(IO5ADN8810_PIN, OUTPUT); /* Set IO5ADN8810 pin as output */
   pinMode(IO7ADN8810_PIN, OUTPUT); /* Set IO7ADN8810 pin as output */
 
@@ -75,21 +82,34 @@ void setup() {
   ADN8810_Init();
 }
 
-void loop() {
-  int d = 10;
-  uint16_t ui16DacInputCode;
-
-  for (ui16DacInputCode=0; ui16DacInputCode<ADN8810_HALF_SCALE_OUT;ui16DacInputCode++)
-  {
+inline void witeCode(uint16_t code){
     uint8_t ui8UpperByte = 0;       /* Data byte MSB */
     uint8_t ui8LowerByte = 0;       /* Data byte LSB */
 
     /* build 12 bits of data + 4 bits of device address */
-    ui8UpperByte = (uint8_t)(((ui16DacInputCode & 0xF00) >> 8) | (ADN8810_ADR << 4)); // 4 address and 4 data bits
-    ui8LowerByte = (uint8_t)(ui16DacInputCode & 0xFF); // 8 bits of data
+    ui8UpperByte = (uint8_t)(((code & 0xF00) >> 8) | (ADN8810_ADR << 4)); // 4 address and 4 data bits
+    ui8LowerByte = (uint8_t)(code & 0xFF); // 8 bits of data
     
     SPI_Write(ui8UpperByte, ui8LowerByte);
-    delay(d);
-  }
 }
 
+
+uint16_t i = 0;
+float code = ADN8810_CHOSEN_MIN_VALUE;
+float delta = (ADN8810_CHOSEN_MAX_VALUE - ADN8810_CHOSEN_MIN_VALUE) / (1.0f * ADN8810_VALUE_HALF_COUNT);
+
+void loop() {
+  witeCode((int16_t) code);
+  code += delta * ((i < ADN8810_VALUE_HALF_COUNT) ? 1 : -1);
+  
+  i = (i + 1) % ADN8810_VALUE_COUNT;
+  
+  delayMicroseconds(ADN8810_DELAY_US);
+  
+  if (SERIAL_COMM) {   
+    Serial.print(code);
+    Serial.print(' ');
+    Serial.print(delta);
+    Serial.print('\n');
+  }
+}
