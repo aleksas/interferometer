@@ -1,3 +1,5 @@
+# Current version does not work due to critical errors in schematics
+
 # Self mixing interferometer
 Schematic designs and theoretical simulation to aid in building a self mixing optical interferometer.
 Theoretical explanation of pcb purpose and circuit part choices explained in [this document](./documents/Laser_diode_modulation.pdf) (skip simulation details). 
